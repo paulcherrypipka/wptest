@@ -1,0 +1,73 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Attach Files Widget\n"
+"POT-Creation-Date: 2014-10-13 17:16-0300\n"
+"PO-Revision-Date: 2014-10-13 17:20-0300\n"
+"Last-Translator: Henrique Avila Vianna <contato@henriquevianna.com>\n"
+"Language-Team: Henrique Avila Vianna <contato@henriquevianna.com>\n"
+"Language: Brazilian Portuguese\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../widgetattachments.php:63
+msgid ""
+"Please, update your WordPress to use Attach Files Widget. Minimum required "
+"version 3.5"
+msgstr ""
+"Por favor atualize seu WordPress para utilizar o widget Anexar Arquivos. A "
+"versão mínima requerida é 3.5"
+
+#: ../widgetattachments.php:106
+msgid "Select an Image"
+msgstr "Selecione um arquivo"
+
+#: ../widgetattachments.php:107
+msgid "Insert Into Widget"
+msgstr "Inserir no widget"
+
+#. Widget description
+#: ../WidgetExAttachments.php:12
+msgid "Attach files in widget"
+msgstr "Cria uma lista de arquivos para download"
+
+#. Widget title
+#: ../WidgetExAttachments.php:15
+msgid "Attach Files"
+msgstr "Anexar Arquivos"
+
+#: ../WidgetExAttachments.php:52 ../WidgetExAttachments.php:135
+msgid "Attachments"
+msgstr "Anexos"
+
+#: ../WidgetExAttachments.php:142
+msgid "Widget ID"
+msgstr "ID do widget"
+
+#: ../WidgetExAttachments.php:145
+msgid "Title:"
+msgstr "Título:"
+
+#: ../WidgetExAttachments.php:149
+msgid "Show file type icons:"
+msgstr "Exibir ícones de tipo de arquivo:"
+
+#: ../WidgetExAttachments.php:150
+msgid "Small icons"
+msgstr "Pequenos"
+
+#: ../WidgetExAttachments.php:151
+msgid "Large icons"
+msgstr "Grandes"
+
+#: ../WidgetExAttachments.php:152
+msgid "Don't show"
+msgstr "Não exibir"
+
+#: ../WidgetExAttachments.php:156
+msgid "Add attachment"
+msgstr "Adicionar anexo"

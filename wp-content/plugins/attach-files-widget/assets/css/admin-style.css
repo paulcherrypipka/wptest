@@ -1,0 +1,42 @@
+.ex-attachments {
+  border-top: 2px solid #D5D5D5;
+  }
+  .ex-attachments li:first-child {
+    display: none;
+    }
+  .ex-attachments li {
+    padding: 8px 0 2px 2px;
+    margin: 0;
+    border-bottom: 1px solid #e5e5e5;
+    overflow: hidden;
+    }
+  .ex-attachments li > span {
+    float: left;
+    width: 15px;
+    }
+  .ex-attachments li > div {
+    margin-left: 15px;
+    }
+  .ex-attachments a {
+    text-decoration: none;
+    }
+  .ex-attachments li p {
+    margin: 1px 0 !important;
+    }
+  .ex-attachments .remove{
+    text-decoration: none;
+    }
+  .ex-attachments li:not(.default):before {
+    }
+  .ex-attachments li > span a {
+    display: block;
+    width: 15px;
+    height: 15px;
+    background-image: url('../images/arrows.png');
+    }
+  .ex-attachments li > span a.up {
+    background-position: -4px -35px;
+    }
+  .ex-attachments li > span a.down {
+    background-position: -4px -1px;
+    }

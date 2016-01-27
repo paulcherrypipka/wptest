@@ -1,0 +1,39 @@
+.ex-attachments-largeicons,
+.ex-attachments-smallicons {
+	list-style: none !important;
+}
+
+.ex-attachments-largeicons li {
+	text-align: center;
+}
+
+.ex-attachments-largeicons img {
+	width: 64px;
+	height: 64px;
+	opacity: 0.6;
+}
+
+.ex-attachments-largeicons li a:hover > img {
+	opacity: 1;
+}
+
+.ex-attachments-largeicons div {
+	margin-bottom: 20px;
+}
+
+.ex-attachments-smallicons img {
+	float: left;
+	width: 32px;
+	height: 32px;
+}
+
+.ex-attachments-smallicons div {
+	box-sizing: border-box;
+	height: 32px;
+	padding-top: 10px;
+	margin-bottom: 10px;
+}
+
+.ex-attachments-noicons div {
+	display: inline;
+}
