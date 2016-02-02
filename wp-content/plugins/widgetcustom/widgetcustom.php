@@ -38,5 +38,7 @@ function widget_custom_admin_init() {
 
 function widget_custom_widgets_init() {
     include_once WIDGET_CUSTOM_DIR . '/WidgetExCustom.php';
+    //include_once WIDGET_CUSTOM_DIR . '/WidgetPostsCustom.php';
     register_widget('WidgetExCustom');
+    //register_widget('WidgetPostsCustom');
 }
