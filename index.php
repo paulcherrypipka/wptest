@@ -11,6 +11,17 @@
  *
  * @var bool
  */
+
+/*
+// estatekonferance.no
+$resource = mysqli_connect('46.38.178.136:3306', 'conf', 'Newpassw0rd');
+if (!$resource) {
+    die('Connection error!');
+}
+echo 'Connection success!!';
+mysqli_close($resource);
+exit();*/
+
 define('WP_USE_THEMES', true);
 
 /** Loads the WordPress Environment and Template */

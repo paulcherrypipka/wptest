@@ -23,6 +23,17 @@ function widget_custom_admin_init() {
     global $assetsUrlCustom;
     load_plugin_textdomain('ex_custom_widget');
     wp_enqueue_script('jquery');
+
+    wp_register_script('widget_custom_js', $assetsUrlCustom . '/js/admin-script.js', WIDGET_CUSTOM_VERSION, true);
+    wp_enqueue_script('widget_custom_js');
+
+    wp_register_style('widget_custom_css', $assetsUrlCustom . '/css/admin-style.css', WIDGET_CUSTOM_VERSION);
+    wp_enqueue_style('widget_custom_css');
+
+    wp_localize_script( 'widget_custom_js', 'WidgetExCustom', array(
+        'frame_title' => __( 'Select an Image', 'ex_custom_widget' ),
+        'button_title' => __( 'Insert Into Widget', 'ex_custom_widget' ),
+    ) );
 }
 
 function widget_custom_widgets_init() {

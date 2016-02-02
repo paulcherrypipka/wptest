@@ -163,7 +163,8 @@ class WidgetExAttachments extends WP_Widget {
                 <a class="down" href="#"></a>
             </span>
             <div>
-                <a target="_blank" class="a-link"></a> <a href="#" class="remove">(x)</a>
+                <a target="_blank" class="a-link"></a>
+                <a href="#" class="remove">(x)</a>
                 <p class="desc-text"></p>
                 <input name="<?php echo esc_attr( $this->get_field_name( 'data' ) ); ?>[]" type="hidden" class="link" value="" />
             </div>

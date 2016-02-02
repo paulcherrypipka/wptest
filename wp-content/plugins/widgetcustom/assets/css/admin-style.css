@@ -1,0 +1,8 @@
+label[for=widget-widget_ex_custom-2-custom_title],
+label[for=widget-widget_ex_custom-2-custom_text] {
+    color: red;
+}
+
+.ex-custom-attached-wrapper .default {
+    display: none;
+}
