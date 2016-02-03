@@ -30,11 +30,33 @@
 		<?php $field_poster = get_field('films_poster', $id); if(!empty($field_poster)): ?>
 			<img src="<?php print $field_poster['url']; ?>" alt="<?php print $field_poster['alt']; ?>" title="<?php print $field_poster['title']; ?>"/>
 		<?php endif; ?>
-		<?php if (get_field('films_genre')): ?>
-			<p><label>Genre:&nbsp</label><span><?php the_field('films_genre'); ?></span></p>
+		<?php if (get_field('films_genre', $id)): ?>
+			<p><label>Genre:&nbsp</label><span><?php the_field('films_genre', $id); ?></span></p>
 		<?php endif; ?>
-		<?php if (get_field('films_author')): ?>
-				<p><label>Author:&nbsp</label><span><?php the_field('films_author'); ?></span></p>
+		<?php if (get_field('films_author', $id)): ?>
+				<p><label>Author:&nbsp</label><span><?php the_field('films_author', $id); ?></span></p>
+		<?php endif; ?>
+		<?php if(get_field('films_postlink', $id)): ?>
+			<?php
+			$post_url = get_field('films_postlink', $id);
+			$post_id_linked = url_to_postid($post_url);
+			$post_linked = get_post($post_id_linked);
+			?>
+			<p><label>Post:&nbsp</label><span><a href="<?php print $post_url; ?>"><?php print $post_linked->post_title; ?></a></span></p>
+		<?php endif; ?>
+		<?php if(get_field('films_rubric', $id)): ?>
+		<?php $field_rubric_ids = get_field('films_rubric', $id); ?>
+		<ul>
+		<?php foreach($field_rubric_ids as $rubric_id): ?>
+			<li>
+			<?php
+			$rubric_term = get_term($rubric_id);
+			$rubric_link = get_term_link($rubric_id);
+			?>
+				<a href="<?php print $rubric_link; ?>"><?php print $rubric_term->name; ?></a>
+			</li>
+		<?php endforeach; ?>
+		</ul>
 		<?php endif; ?>
 		<?php
 			/* translators: %s: Name of current post */
