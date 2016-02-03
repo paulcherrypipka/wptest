@@ -353,3 +353,12 @@ require get_template_directory() . '/inc/template-tags.php';
  * @since Twenty Fifteen 1.0
  */
 require get_template_directory() . '/inc/customizer.php';
+
+function go_films_filter() {
+	global $wp_query;
+	$args = array();
+	if (isset($_GET['keyword']) && !empty($_GET['keyword'])) {
+		$args['s'] = $_GET['keyword'];
+	}
+	query_posts($args, $wp_query->query);
+}
