@@ -27,6 +27,15 @@
 	</header><!-- .entry-header -->
 
 	<div class="entry-content">
+		<?php $field_poster = get_field('films_poster', $id); if(!empty($field_poster)): ?>
+			<img src="<?php print $field_poster['url']; ?>" alt="<?php print $field_poster['alt']; ?>" title="<?php print $field_poster['title']; ?>"/>
+		<?php endif; ?>
+		<?php if (get_field('films_genre')): ?>
+			<p><label>Genre:&nbsp</label><span><?php the_field('films_genre'); ?></span></p>
+		<?php endif; ?>
+		<?php if (get_field('films_author')): ?>
+				<p><label>Author:&nbsp</label><span><?php the_field('films_author'); ?></span></p>
+		<?php endif; ?>
 		<?php
 			/* translators: %s: Name of current post */
 			the_content( sprintf(
