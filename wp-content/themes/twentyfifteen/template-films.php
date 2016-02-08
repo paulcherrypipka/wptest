@@ -8,8 +8,13 @@
 get_header(); ?>
 
 	<div id="primary" class="content-area">
+		<?php if ( is_active_sidebar( 'sidebar-upper-films' ) ) : ?>
+			<div id="widget-area" class="widget-area" role="complementary">
+				<?php dynamic_sidebar( 'sidebar-upper-films' ); ?>
+			</div><!-- .widget-area -->
+		<?php endif; ?>
 		<main id="main" class="site-main" role="main">
-			<form class="filter" action="" method="get"><!-- action пустой, чтобы ссылалось на текущую страницу -->
+			<form action="/фильмы" method="get" class="filter search-form"><!-- action пустой, чтобы ссылалось на текущую страницу -->
 				<label>По ключевому слову:
 					<input type="text" name="keyword"/> <!-- Ключевое слово -->
 				</label>
@@ -36,6 +41,11 @@ get_header(); ?>
 		?>
 
 		</main><!-- .site-main -->
+		<?php if ( is_active_sidebar( 'sidebar-bottom-films' ) ) : ?>
+			<div id="widget-area" class="widget-area" role="complementary">
+				<?php dynamic_sidebar( 'sidebar-bottom-films' ); ?>
+			</div><!-- .widget-area -->
+		<?php endif; ?>
 	</div><!-- .content-area -->
 
 <?php get_footer(); ?>
