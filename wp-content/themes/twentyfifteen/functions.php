@@ -362,3 +362,32 @@ function go_films_filter() {
 	}
 	query_posts($args, $wp_query->query);
 }
+
+add_action('show_user_profile', '__add_extra_social_links');
+function __add_extra_social_links($user) {
+	?>
+	<h3>Additional user social links: </h3>
+	<table class="form-table">
+		<tr>
+			<th><label>Facebook profile</label></th>
+			<td><input type="text" name="facebook_profile" value="<?php print esc_attr(get_the_author_meta('facebook_profile', $user->ID)); ?>" class="regular-text" /></td>
+		</tr>
+		<tr>
+			<th><label>Twitter profile</label></th>
+			<td><input type="text" name="twitter_profile" value="<?php print esc_attr(get_the_author_meta('twitter_profile', $user->ID)); ?>" class="regular-text" /></td>
+		</tr>
+		<tr>
+			<th><label>Google profile</label></th>
+			<td><input type="text" name="google_profile" value="<?php print esc_attr(get_the_author_meta('google_profile', $user->ID)); ?>" class="regular-text" /></td>
+		</tr>
+	</table>
+<?php
+}
+
+add_action('personal_options_update', '__save_extra_social_links');
+add_action('edit_user_profile_update', '__save_extra_social_links');
+function __save_extra_social_links($user_id) {
+	update_user_meta( $user_id,'facebook_profile', sanitize_text_field( $_POST['facebook_profile'] ) );
+	update_user_meta( $user_id,'twitter_profile', sanitize_text_field( $_POST['twitter_profile'] ) );
+	update_user_meta( $user_id,'google_profile', sanitize_text_field( $_POST['google_profile'] ) );
+}
