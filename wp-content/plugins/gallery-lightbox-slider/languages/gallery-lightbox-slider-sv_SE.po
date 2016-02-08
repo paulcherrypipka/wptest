@@ -1,0 +1,163 @@
+# Copyright (C) 2015 Gallery Lightbox Lite
+# This file is distributed under the same license as the Gallery Lightbox Lite package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Gallery Lightbox Lite 1.0.0.3\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/gallery-lightbox-"
+"slider\n"
+"POT-Creation-Date: 2015-11-06 12:56-0800\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-11-06 13:00-0800\n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.8.6\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: sv\n"
+
+#: inc/gfg-metabox.php:45
+msgid "Activate Lightbox?"
+msgstr "Aktivera Lightbox?"
+
+#: inc/settings/glg-lightbox-settings.php:12
+msgid "General"
+msgstr "Allmänt"
+
+#: inc/settings/glg-lightbox-settings.php:19
+msgid "Enable Lightbox in All Post/Page"
+msgstr "Aktivera Lightbox i alla inlägg/sida"
+
+#: inc/settings/glg-lightbox-settings.php:37
+msgid "Use this option to mass Enable or Disable the Lightbox"
+msgstr ""
+"Använd detta alternativ för att mass Aktivera eller inaktivera Lightbox"
+
+#: inc/settings/glg-lightbox-settings.php:42
+msgid "Slideshow Auto Play"
+msgstr "Bildspel Autoplay"
+
+#: inc/settings/glg-lightbox-settings.php:47
+msgid "Should the lightbox gallery autoplay on start or not"
+msgstr "Bör den ljusbord Galleri autoplay på start eller inte"
+
+#: inc/settings/glg-lightbox-settings.php:52
+msgid "Slideshow Interval"
+msgstr "Bildspel Intervall"
+
+#: inc/settings/glg-lightbox-settings.php:66
+msgid "The time in seconds when autoplaying a gallery. Default 3 seconds"
+msgstr ""
+"Tid i sekunder när automatisk uppspelning ett galleri. Standard 3 sekunder"
+
+#: inc/settings/glg-lightbox-settings.php:71
+msgid "Show Thumbnails on Bottom"
+msgstr "Visa miniatyrer på botten"
+
+#: inc/settings/glg-lightbox-settings.php:76
+msgid "Use this option to show / hide gallery thumbnails"
+msgstr "Använd detta alternativ för att Visa / Göm Galleri miniatyrer"
+
+#: inc/settings/glg-lightbox-settings.php:81
+msgid "Overlay Color"
+msgstr "Overlay Färg"
+
+#: inc/settings/glg-lightbox-settings.php:83
+msgid "Set your gallery overlay color. Default: #000000 "
+msgstr "Ange ditt Galleri överlägg färg. Standard: #000000"
+
+#: inc/settings/glg-lightbox-settings.php:98
+msgid "Save Changes"
+msgstr "Spara ändringar"
+
+#: inc/settings/pages/glg-docs.php:12
+msgid "Documentation"
+msgstr "Dokumentation"
+
+#: inc/settings/pages/glg-free-plugins.php:12
+msgid "Free Install Plugins"
+msgstr "Installera plugins"
+
+#: inc/settings/pages/glg-free-plugins.php:123
+msgid "By %s"
+msgstr "Av %s"
+
+#. translators: 1: Plugin name and version.
+#: inc/settings/pages/glg-free-plugins.php:135
+msgid "Install %s now"
+msgstr "Installera %s nu"
+
+#: inc/settings/pages/glg-free-plugins.php:135
+msgid "Install Now"
+msgstr "Installera nu"
+
+#. translators: 1: Plugin name and version
+#: inc/settings/pages/glg-free-plugins.php:142
+msgid "Update %s now"
+msgstr "Uppdatera %s nu"
+
+#: inc/settings/pages/glg-free-plugins.php:142
+msgid "Update Now"
+msgstr "Uppdatera nu"
+
+#: inc/settings/pages/glg-free-plugins.php:148
+msgid "This plugin is already installed and is up to date"
+msgstr "Denna plugin är redan installerad och är uppdaterad"
+
+#: inc/settings/pages/glg-free-plugins.php:148
+msgctxt "plugin"
+msgid "Installed"
+msgstr "Installerat"
+
+#. translators: 1: Plugin name and version.
+#: inc/settings/pages/glg-free-plugins.php:157
+msgid "More information about %s"
+msgstr "Mer information om %s"
+
+#: inc/settings/pages/glg-free-plugins.php:157
+msgid "More Details"
+msgstr "Fler Detaljer"
+
+#: inc/settings/pages/glg-free-plugins.php:224
+msgid "Last Updated:"
+msgstr "Senast uppdaterad:"
+
+#: inc/settings/pages/glg-free-plugins.php:225
+msgid "%s ago"
+msgstr "%s sedan"
+
+#: inc/settings/pages/glg-free-plugins.php:229
+msgid "%s download"
+msgid_plural "%s downloads"
+msgstr[0] "%s download"
+msgstr[1] "%s downloads"
+
+#: inc/settings/pages/glg-free-plugins.php:234
+msgid "Untested with your version of WordPress"
+msgstr "Oprövade med din version av WordPress"
+
+#: inc/settings/pages/glg-free-plugins.php:236
+msgid "<strong>Incompatible</strong> with your version of WordPress"
+msgstr "<strong>Inte kompatibel</strong> med din version av WordPress"
+
+#: inc/settings/pages/glg-free-plugins.php:238
+msgid "<strong>Compatible</strong> with your version of WordPress"
+msgstr "<strong>Kompatibel</strong> med din version av WordPress"
+
+#. Plugin Name of the plugin/theme
+msgid "Gallery Lightbox Lite"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "http://www.ghozylab.com/plugins/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Displays all gallery images into the lightbox slider in just a few seconds"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "GhozyLab, Inc."
+msgstr ""

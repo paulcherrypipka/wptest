@@ -1,0 +1,306 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Image Carousel\n"
+"POT-Creation-Date: 2016-01-29 13:13+0700\n"
+"PO-Revision-Date: 2016-01-29 13:14+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: id\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: image-carousel.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: image-carousel.php:143
+msgid "Settings"
+msgstr "Pengaturan"
+
+#: inc/class/BFI_Thumb.php:145
+msgid ""
+"The server does not have ImageMagick or GD installed and/or enabled! Any of "
+"these libraries are required for WordPress to be able to resize images. "
+"Please contact your server administrator to enable this before continuing."
+msgstr ""
+"Server tidak diinstal ImageMagick atau GD dan / atau diaktifkan! Setiap "
+"libraries ini diperlukan untuk WordPress untuk dapat mengubah ukuran gambar. "
+"Silakan hubungi administrator server Anda untuk mengaktifkan ini sebelum "
+"melanjutkan."
+
+#: inc/class/BFI_Thumb.php:273
+msgid "Image rotate failed."
+msgstr "Memutar Gambar Gagal."
+
+#: inc/class/BFI_Thumb.php:296
+msgid "Image opacity change failed."
+msgstr "Perubahan keburaman gambar gagal."
+
+#: inc/class/BFI_Thumb.php:383
+msgid "Image color change failed."
+msgstr "Perubahan warna gambar gagal."
+
+#: inc/class/BFI_Thumb.php:400
+msgid "Image grayscale failed."
+msgstr "Gambar grayscale gagal."
+
+#: inc/class/BFI_Thumb.php:417
+msgid "Image negate failed."
+msgstr "Gambar meniadakan gagal."
+
+#: inc/functions/icp-functions.php:340
+msgid "Missing Attachment"
+msgstr "Lampiran Hilang"
+
+#: inc/functions/icp-functions.php:483
+msgid "No cache found"
+msgstr "Tidak ada cache"
+
+#: inc/functions/icp-functions.php:489
+msgid "The cache files are not generated"
+msgstr "File cache belum di generate"
+
+#: inc/functions/icp-functions.php:495
+msgid "You need to use php5 or greater to get cache size information."
+msgstr ""
+"Anda perlu menggunakan php5 atau lebih besar untuk mendapatkan informasi "
+"ukuran cache."
+
+#: inc/functions/icp-functions.php:508
+msgid "Image Carousel Custom Link"
+msgstr "Image Carousel Custom Link"
+
+#: inc/functions/icp-functions.php:514
+msgid "Link URL"
+msgstr "Link URL"
+
+#: inc/functions/icp-functions.php:521
+msgid "Target Link"
+msgstr "Target Link"
+
+#: inc/functions/icp-functions.php:525
+msgid "Open link in a new tab"
+msgstr "Buka Link di tab baru"
+
+#: inc/functions/icp-functions.php:526
+msgid "Open link in same tab"
+msgstr "Buka link di tab yang sama"
+
+#: inc/functions/icp-functions.php:665
+#, php-format
+msgid "By %s"
+msgstr "Oleh %s"
+
+#: inc/functions/icp-functions.php:677
+#, php-format
+msgid "Install %s now"
+msgstr "Menginstal %s sekarang"
+
+#: inc/functions/icp-functions.php:677
+msgid "Install Now"
+msgstr "Pasang sekarang"
+
+#: inc/functions/icp-functions.php:684
+#, php-format
+msgid "Update %s now"
+msgstr "Perbarui %s sekarang"
+
+#: inc/functions/icp-functions.php:684
+msgid "Update Now"
+msgstr "Memperbarui sekarang"
+
+#: inc/functions/icp-functions.php:690
+msgid "This plugin is already installed and is up to date"
+msgstr "Plugin ini sudah terinstal dan up to date"
+
+#: inc/functions/icp-functions.php:690
+msgctxt "plugin"
+msgid "Installed"
+msgstr "Sudah Terinstall"
+
+#: inc/functions/icp-functions.php:699
+#, php-format
+msgid "More information about %s"
+msgstr "Informasi lebih lanjut tentang %s"
+
+#: inc/functions/icp-functions.php:699
+msgid "More Details"
+msgstr "Lebih detail"
+
+#: inc/functions/icp-functions.php:766
+msgid "Last Updated:"
+msgstr "Terakhir Diperbarui:"
+
+#: inc/functions/icp-functions.php:767
+#, php-format
+msgid "%s ago"
+msgstr "%s yang lalu"
+
+#: inc/functions/icp-functions.php:771
+#, php-format
+msgid "%s download"
+msgid_plural "%s downloads"
+msgstr[0] "%s download"
+
+#: inc/functions/icp-functions.php:776
+msgid "Untested with your version of WordPress"
+msgstr "Belum diuji dengan versi WordPress Anda"
+
+#: inc/functions/icp-functions.php:778
+msgid "<strong>Incompatible</strong> with your version of WordPress"
+msgstr "<strong>Tidak Kompatibel</strong> dengan versi WordPress"
+
+#: inc/functions/icp-functions.php:780
+msgid "<strong>Compatible</strong> with your version of WordPress"
+msgstr "<strong>Kompatibel</strong> dengan versi WordPress"
+
+#: inc/icp-metabox.php:45
+msgid "Activate Carousel?"
+msgstr "Aktifkan Carousel?"
+
+#: inc/settings/icp-carousel-settings.php:33
+msgid "General"
+msgstr "Umum"
+
+#: inc/settings/icp-carousel-settings.php:40
+msgid "Carousel Auto Play"
+msgstr "Carousel Otomatis Berjalan"
+
+#: inc/settings/icp-carousel-settings.php:45
+msgid "Should the Carousel autoplay on start or not"
+msgstr "Haruskah autoplay Carousel pada awal atau tidak"
+
+#: inc/settings/icp-carousel-settings.php:50
+msgid "Show Caption"
+msgstr "Tampilkan Caption"
+
+#: inc/settings/icp-carousel-settings.php:55
+msgid "Use this option to show / hide Carousel captions"
+msgstr "Gunakan pilihan ini untuk menampilkan dan menyembunyikan teks Carousel"
+
+#: inc/settings/icp-carousel-settings.php:60
+msgid "Show Bullets Navigation"
+msgstr "Tampilkan Bullets Navigation"
+
+#: inc/settings/icp-carousel-settings.php:65
+msgid "Use this option to show / hide Carousel bullets navigation"
+msgstr ""
+"Gunakan pilihan ini untuk menampilkan dan menyembunyikan Carousel navigasi "
+"bullets"
+
+#: inc/settings/icp-carousel-settings.php:70
+msgid "Slideshow Effect"
+msgstr "Tampilan slide efek"
+
+#: inc/settings/icp-carousel-settings.php:79
+#: inc/settings/icp-carousel-settings.php:100
+#: inc/settings/icp-carousel-settings.php:131
+msgid " selected=\"selected\""
+msgstr " selected=\"selected\""
+
+#: inc/settings/icp-carousel-settings.php:82
+msgid "Choose an entrance animation for the Carousel. Default: easeOutBounce"
+msgstr "Pilih animasi untuk Carousel. Standar: easeOutBounce"
+
+#: inc/settings/icp-carousel-settings.php:87
+msgid "Slideshow Interval"
+msgstr "Interval slideshow"
+
+#: inc/settings/icp-carousel-settings.php:103
+msgid "The time in seconds when autoplaying. Default 3 seconds"
+msgstr "Waktu dalam detik ketika autoplaying. Standar 3 detik"
+
+#: inc/settings/icp-carousel-settings.php:108
+msgid "Carousel Items Width"
+msgstr "Lebar Carousel"
+
+#: inc/settings/icp-carousel-settings.php:113
+msgid "Set the Carousel width to fit your needs. Default: 250 px"
+msgstr "Mengatur lebar Carousel sesuai dengan kebutuhan Anda. Default: 250 px"
+
+#: inc/settings/icp-carousel-settings.php:118
+msgid "Carousel Items Margin"
+msgstr "Carousel Margin"
+
+#: inc/settings/icp-carousel-settings.php:134
+msgid "Set margin between each carousel items. Default 10 px"
+msgstr "Mengatur margin antara setiap item korsel. Default 10 px"
+
+#: inc/settings/icp-carousel-settings.php:139
+msgid "Open in Lightbox when Carousel Clicked"
+msgstr "Buka di Lightbox ketika Carousel diklik"
+
+#: inc/settings/icp-carousel-settings.php:163
+msgid "Use this option to enable / disable Lighbox mode"
+msgstr "Gunakan pilihan ini untuk mengaktifkan / menonaktifkan modus Lighbox"
+
+#: inc/settings/icp-carousel-settings.php:187
+msgid "Disable All Carousel"
+msgstr "Menonaktifkan semua Carousel"
+
+#: inc/settings/icp-carousel-settings.php:192
+msgid "Use this option to mass Disable Carousel in all Post & Page"
+msgstr ""
+"Gunakan pilihan ini untuk menonaktifkan Carousel di semua posting & halaman "
+"secara bersamaan"
+
+#: inc/settings/icp-carousel-settings.php:197
+msgid "Image Cache Control"
+msgstr "Gambar Cache Kontrol"
+
+#: inc/settings/icp-carousel-settings.php:202
+msgid "All Cache Cleared"
+msgstr "Semua Cache Dihapus"
+
+#: inc/settings/icp-carousel-settings.php:219
+#: inc/settings/icp-carousel-settings.php:232
+msgid "Save Changes"
+msgstr "Simpan Perubahan"
+
+#: inc/settings/pages/icp-docs.php:12
+msgid "Documentation"
+msgstr "Dokumentasi"
+
+#: inc/settings/pages/icp-docs.php:14
+msgid ""
+"There are no complicated instructions for using Image Carousel plugin "
+"because this plugin designed to make all easy. Please watch the following "
+"video and we believe that you will easily to understand it just in minutes :"
+msgstr ""
+"Tidak ada instruksi yang rumit untuk menggunakan plugin ini karena plugin "
+"ini dirancang untuk membuat semua mudah. Silahkan menonton berikut video dan "
+"kami percaya bahwa Anda akan mudah untuk memahaminya hanya dalam menit:"
+
+#: inc/settings/pages/icp-free-plugins.php:12
+msgid "Free Install Plugins"
+msgstr "Plugin Gratis"
+
+#: inc/settings/pages/icp-free-plugins.php:15
+msgid "Retrieving data from server, please wait..."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Image Carousel"
+msgstr "Image Carousel"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "http://www.ghozylab.com/plugins/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Touch enabled Wordpress plugin that lets you create a beautiful responsive "
+"image carousel"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "GhozyLab, Inc."
+msgstr ""
