@@ -308,10 +308,35 @@ class wpematico_campaign_fetch extends wpematico_campaign_fetch_functions {
 		   $this->current_item['meta'] = (isset($this->current_item['meta']) && !empty($this->current_item['meta']) ) ? array_merge($this->current_item['meta'], $arraycf) :  $arraycf ;
 		   $this->current_item['meta'] = apply_filters('wpem_meta_data', $this->current_item['meta'] );
 		}
-		
+
+		// Customize post content parsing
+		//
+		$selector_content = '';
+		if ($feedurl == 'http://www.naturalnews.com/rss.xml') {
+			$selector_content = "#Col2 #FeaturePic, #Col2 #Article";
+		}
+		if ($feedurl == 'http://rss.medicalnewstoday.com/seniors-aging.xml') {
+			$selector_content = 'article .article_body';
+		}
+		if ($feedurl == 'http://rss.medicalnewstoday.com/nutrition-diet.xml') {
+			$selector_content = 'article .article_body';
+		}
+		if ($feedurl == 'http://rss.medicalnewstoday.com/mens_health.xml') {
+			$selector_content = 'article .article_body';
+		}
+		if ($feedurl == 'http://rss.medicalnewstoday.com/healthinsurance.xml') {
+			$selector_content = 'article .article_body';
+		}
+
+		$parsed_content =  wpws_get_content($this->current_item['permalink'], $selector_content, array('output' => 'html'));
+		//$parsed_content =  wpws_get_content($this->current_item['permalink'], $selector_content, array('output' => 'text'));
+
 		// Create post
 		$title = $this->current_item['title'];
-		$content= $this->current_item['content'];
+
+		$content= $parsed_content;
+		//$content= $this->current_item['content'];
+
 		$timestamp = $this->current_item['date'];
 		$category = $this->current_item['categories'];
 		$status = $this->current_item['posttype'];
