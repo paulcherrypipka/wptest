@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Easy Media Gallery v1.2.29\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-02-07 00:32+0700\n"
-"PO-Revision-Date: 2016-02-07 00:33+0700\n"
+"POT-Creation-Date: 2016-05-31 22:20+0700\n"
+"PO-Revision-Date: 2016-05-31 22:21+0700\n"
 "Last-Translator: GhozyLab <lang@ghozylab.com>\n"
 "Language-Team: \n"
 "Language: es_ES\n"
@@ -20,125 +20,125 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 
 # @ easmedia
-#: easy-media-gallery.php:212 includes/emg-settings.php:40
-#: includes/functions/functions.php:1103
+#: easy-media-gallery.php:220 includes/emg-settings.php:40
+#: includes/functions/functions.php:1142
 msgid "Settings"
 msgstr "Configuración"
 
-#: easy-media-gallery.php:233
+#: easy-media-gallery.php:241
 msgid "Donate"
 msgstr "Donar"
 
-#: easy-media-gallery.php:234
+#: easy-media-gallery.php:242
 msgid "Tutorials"
 msgstr "Tutoriales"
 
-#: easy-media-gallery.php:235
+#: easy-media-gallery.php:243
 msgid "Rate Us"
 msgstr "Tasa de nosotros"
 
-#: easy-media-gallery.php:250
+#: easy-media-gallery.php:258
 msgctxt "post type general name"
 msgid "Easy Media Gallery Lite"
 msgstr ""
 
-#: easy-media-gallery.php:251
+#: easy-media-gallery.php:259
 msgctxt "post type singular name"
 msgid "Easy Media Gallery Lite"
 msgstr ""
 
 # @ easmedia
-#: easy-media-gallery.php:252 includes/functions/functions.php:1081
+#: easy-media-gallery.php:260 includes/functions/functions.php:1120
 msgid "Add New Media"
 msgstr "Añadir Nuevos Medios"
 
 # @ easmedia
-#: easy-media-gallery.php:253
+#: easy-media-gallery.php:261
 msgid "Easy Media Item"
 msgstr ""
 
 # @ easmedia
-#: easy-media-gallery.php:254
+#: easy-media-gallery.php:262
 msgid "Edit Media"
 msgstr "Edición de Medios"
 
 # @ easmedia
-#: easy-media-gallery.php:255
+#: easy-media-gallery.php:263
 msgid "New Media"
 msgstr "Nuevos medios"
 
 # @ easmedia
-#: easy-media-gallery.php:256
+#: easy-media-gallery.php:264
 msgid "View Media"
 msgstr "View Media"
 
 # @ easmedia
-#: easy-media-gallery.php:257
+#: easy-media-gallery.php:265
 msgid "Search Media"
 msgstr "Buscar Medios"
 
 # @ easmedia
-#: easy-media-gallery.php:258
+#: easy-media-gallery.php:266
 msgid "No Media Found"
 msgstr "No se han encontrado medios"
 
 # @ easmedia
-#: easy-media-gallery.php:259
+#: easy-media-gallery.php:267
 msgid "No Media Found In Trash"
 msgstr "No se encontraron Medios en la papelera"
 
 # @ easmedia
-#: easy-media-gallery.php:260
+#: easy-media-gallery.php:268
 msgid "Parent Media"
 msgstr ""
 
 # @ easmedia
-#: easy-media-gallery.php:261 easy-media-gallery.php:269
+#: easy-media-gallery.php:269 easy-media-gallery.php:277
 msgid "Easy Media"
 msgstr ""
 
 # @ easmedia
-#: easy-media-gallery.php:327
+#: easy-media-gallery.php:336
 msgctxt "column name"
 msgid "Title"
 msgstr "Título"
 
 # @ easmedia
-#: easy-media-gallery.php:328
+#: easy-media-gallery.php:337
 msgid "Thumbnails"
 msgstr "Miniaturas"
 
 # @ easmedia
-#: easy-media-gallery.php:329
+#: easy-media-gallery.php:338
 msgid "Type"
 msgstr "Tipo"
 
 # @ easmedia
 # @ default
-#: easy-media-gallery.php:330 includes/functions/functions.php:1092
+#: easy-media-gallery.php:339 includes/functions/functions.php:1131
 #: includes/taxonomy.php:20
 msgid "Categories"
 msgstr "Categorías"
 
 # @ easmedia
-#: easy-media-gallery.php:331
+#: easy-media-gallery.php:340
 msgid "ID"
 msgstr "ID"
 
 # @ easmedia
-#: easy-media-gallery.php:399
+#: easy-media-gallery.php:408
 msgid "None"
 msgstr "Ninguno"
 
-#: easy-media-gallery.php:529 includes/functions/functions.php:1070
+#: easy-media-gallery.php:540 includes/functions/functions.php:1109
 msgid "Overview"
-msgstr ""
+msgstr "Presentación"
 
 #: includes/easywidget.php:8
 msgid "Use this widget to display your media as a widget."
-msgstr ""
+msgstr "Usar este widget para mostrar sus medios como un widget."
 
-#: includes/easywidget.php:11 includes/functions/functions.php:1060
+#: includes/easywidget.php:11 includes/functions/functions.php:1099
 msgid "Easy Media Gallery"
 msgstr ""
 
@@ -167,7 +167,7 @@ msgstr ""
 # @ default
 #: includes/functions/functions.php:304
 msgid "Most Used"
-msgstr ""
+msgstr "Más usados"
 
 # @ default
 #: includes/functions/functions.php:328
@@ -176,13 +176,13 @@ msgid "+ %s"
 msgstr ""
 
 # @ easmedia
-#: includes/functions/functions.php:614 includes/functions/functions.php:628
-#: includes/functions/functions.php:656 includes/functions/functions.php:1114
+#: includes/functions/functions.php:615 includes/functions/functions.php:629
+#: includes/functions/functions.php:657 includes/functions/functions.php:1153
 msgid "Sorter"
 msgstr "Ordenar"
 
 # @ easmedia
-#: includes/functions/functions.php:629
+#: includes/functions/functions.php:630
 msgid ""
 "Simply drag the Media up or down and they will be saved in that order. Media "
 "at the top will appear first."
@@ -191,25 +191,25 @@ msgstr ""
 "que se guardarán en ese orden. Medios en la parte superior aparecerá primero."
 
 # @ easmedia
-#: includes/functions/functions.php:633 includes/functions/functions.php:659
+#: includes/functions/functions.php:634 includes/functions/functions.php:660
 msgid "Sort Media"
 msgstr "Clasificar los Medios"
 
 # @ easmedia
-#: includes/functions/functions.php:660
+#: includes/functions/functions.php:661
 #, php-format
 msgid "No items found, why not %screate one%s?\t"
 msgstr ""
 
-#: includes/functions/functions.php:715
+#: includes/functions/functions.php:716
 msgid "Easy Media Gallery (Lite) "
 msgstr ""
 
-#: includes/functions/functions.php:859
+#: includes/functions/functions.php:898
 msgid "<img src=\""
 msgstr ""
 
-#: includes/functions/functions.php:924
+#: includes/functions/functions.php:963
 msgid ""
 "We recommend you to enable plugin Auto Update so you will get the latest "
 "features and other important updates of Easy Media Gallery.<br />Click <a "
@@ -222,27 +222,23 @@ msgstr ""
 "id=\"doautoupdate\">aquí</span></strong></a> para activar la actualización "
 "automática."
 
-#: includes/functions/functions.php:1125 includes/pages/emg-welcome.php:337
+#: includes/functions/functions.php:1164 includes/pages/emg-welcome.php:337
 msgid "Demo"
 msgstr "Demo"
 
-#: includes/functions/functions.php:1136
+#: includes/functions/functions.php:1175
 msgid "Free Install Plugins"
 msgstr "Instalar plugins"
 
-#: includes/functions/functions.php:1147
+#: includes/functions/functions.php:1186
 msgid "Premium Plugin"
 msgstr "Plugin Premium"
 
-#: includes/functions/functions.php:1158 includes/functions/functions.php:1180
+#: includes/functions/functions.php:1219
 msgid "UPGRADE PRO VERSION"
 msgstr "ACTUALIZAR A LA VERSIÓN PRO"
 
-#: includes/functions/functions.php:1169
-msgid "Earn EXTRA MONEY"
-msgstr "Gana un dinero Extra"
-
-#: includes/functions/functions.php:1212 includes/pages/emg-addons.php:35
+#: includes/functions/functions.php:1251 includes/pages/emg-addons.php:35
 #: includes/pages/emg-featured.php:25
 msgid ""
 "There was an error retrieving the list from the server. Please try again "
@@ -251,7 +247,7 @@ msgstr ""
 "Se ha producido un error al recuperar la lista del servidor. Por favor, "
 "inténtelo de nuevo más tarde."
 
-#: includes/functions/functions.php:1248
+#: includes/functions/functions.php:1287
 msgid ""
 "Fill your Affiliate Account Email or Payment Email and press Connect button "
 "to start earn extra Money with us!"
@@ -260,15 +256,15 @@ msgstr ""
 "botón Cuenta de Afiliado Conectar para iniciar ganar dinero extra con "
 "nosotros!"
 
-#: includes/functions/functions.php:1264
+#: includes/functions/functions.php:1303
 msgid "Account Email or Payment Email"
 msgstr "Cuenta de correo electrónico o en el pago electrónico"
 
-#: includes/functions/functions.php:1289
+#: includes/functions/functions.php:1328
 msgid "How does it work?"
 msgstr "Cómo funciona?"
 
-#: includes/functions/functions.php:1291
+#: includes/functions/functions.php:1330
 msgid ""
 "After successfully registered with our Affiliate program what you have to do "
 "just :"
@@ -276,7 +272,7 @@ msgstr ""
 "Después registrado correctamente con nuestro programa de afiliados lo que "
 "tiene que hacer precisamente:"
 
-#: includes/functions/functions.php:1292
+#: includes/functions/functions.php:1331
 msgid ""
 "Fill your Affiliate Account Email or Payment Email in field above and Hit "
 "Connect button"
@@ -284,11 +280,11 @@ msgstr ""
 "Llena tu cuenta de socios por correo electrónico o en el pago por correo "
 "electrónico en el campo de arriba y Hit botón Conectar"
 
-#: includes/functions/functions.php:1293
+#: includes/functions/functions.php:1332
 msgid "After connected you will see green connected status"
 msgstr "Después conectado podrás ver el estado conectado verde"
 
-#: includes/functions/functions.php:1294
+#: includes/functions/functions.php:1333
 msgid ""
 "Check your gallery and you will find your affiliate link in the bottom of "
 "your gallery like in the right side screenshot"
@@ -296,7 +292,7 @@ msgstr ""
 "Revise su galería y usted encontrará su enlace de afiliado en el fondo de la "
 "galería como en el lado derecho de pantalla"
 
-#: includes/functions/functions.php:1295
+#: includes/functions/functions.php:1334
 msgid ""
 "Now when individuals follow that link and subsequently make a purchase, you "
 "will be credited for the transaction and you will receive a payout"
@@ -304,7 +300,7 @@ msgstr ""
 "Ahora, cuando los individuos sigue este enlace y, posteriormente, hacer una "
 "compra, se le acreditará para la transacción y recibirá un pago"
 
-#: includes/functions/functions.php:1296
+#: includes/functions/functions.php:1335
 msgid "Congratulations! You are ready to start to earn extra money with us :)"
 msgstr ""
 "Felicidades! Ya está listo para empezar a ganar dinero extra con nosotros :)"
@@ -379,13 +375,13 @@ msgstr ""
 
 #: includes/metaboxes.php:840
 msgid ""
-"<ul class=\"gtipslist\"><li>Use <b>Ctrl + Click</b> on each image to select "
-"multiple images at once.</li><li>You also can drag and drop images to re-"
-"order.</li><li>Click on image to edit title/subtitle ( <i>Pro Version only</"
-"i> )</li><li class=\"messivideo\" data-yvid=\"https://www.youtube.com/embed/"
-"H1Z3fidyEbE?rel=0\">Tutorial How to Create Gallery</li>\n"
+"<ul class=\"gtipslist\"><li class=\"messivideo\" data-yvid=\"https://www."
+"youtube.com/embed/H1Z3fidyEbE?rel=0\">Tutorial How to Create Gallery</li>\n"
 "<li class=\"messivideo\" data-yvid=\"https://www.youtube.com/embed/"
-"pjHvRoV2Bn8?rel=0\">Tutorial How to Create Album</li></ul>"
+"pjHvRoV2Bn8?rel=0\">Tutorial How to Create Album</li><li>Use <b>Ctrl + "
+"Click</b> on each image to select multiple images at once.</li><li>You also "
+"can drag and drop images to re-order.</li><li>Click on image to edit title/"
+"subtitle ( <i>Pro Version only</i> )</li></ul>"
 msgstr ""
 
 # @ easmedia
@@ -405,7 +401,7 @@ msgstr ""
 
 #: includes/metaboxes.php:860
 msgid "Use information of each image"
-msgstr ""
+msgstr "Utilizar la información de cada imagen"
 
 #: includes/metaboxes.php:861
 msgid ""
@@ -413,6 +409,10 @@ msgid ""
 "informations. If OFF, this gallery will use title, sub title and description "
 "from Media Information below."
 msgstr ""
+"Si está activado, cada imagen va a utilizar el título individual en base a "
+"informaciones de los medios de comunicación de Wordpress. Si está "
+"desactivado, esta galería utilizará título, subtítulo y la descripción de "
+"Información para los medios a continuación."
 
 # @ easmedia
 #: includes/metaboxes.php:876
@@ -457,12 +457,12 @@ msgstr "Seleccione o cargue su imagen."
 # @ easmedia
 #: includes/metaboxes.php:933
 msgid "Media Information"
-msgstr ""
+msgstr "Información sobre el Media"
 
 # @ easmedia
 #: includes/metaboxes.php:934
 msgid "Input basic info for this media."
-msgstr ""
+msgstr "Entrada de información básica para este medio."
 
 # @ easmedia
 #: includes/metaboxes.php:940
@@ -492,19 +492,19 @@ msgstr "¡Échale un vistazo!"
 msgid "Just Like, Share or Subscribe and Get Free Updates"
 msgstr "Apenas como, compartir o suscríbete y recibe actualizaciones gratis"
 
-#: includes/pages/emg-demo.php:51
-msgid "New Plugin, check it out!"
-msgstr "Nuevo Plugin, échale un vistazo!"
+# @ easmedia
+#: includes/pages/emg-demo.php:50
+msgid "Video Tutorials"
+msgstr "video totorales"
 
 # @ easmedia
-#: includes/pages/emg-demo.php:63
+#: includes/pages/emg-demo.php:120
 msgid "Share Easy Media Gallery"
 msgstr "Cuota Easy Media Gallery"
 
-# @ easmedia
-#: includes/pages/emg-demo.php:73
-msgid "Video Tutorials"
-msgstr "video totorales"
+#: includes/pages/emg-demo.php:130
+msgid "New Plugin, check it out!"
+msgstr "Nuevo Plugin, échale un vistazo!"
 
 #: includes/pages/emg-freeplugins.php:164
 #, php-format
@@ -583,7 +583,7 @@ msgstr "Comparación"
 
 #: includes/pages/emg-welcome.php:318
 msgid "What's New"
-msgstr ""
+msgstr "Lo Nuevo"
 
 #: includes/pages/emg-welcome.php:321
 msgid "Getting Started"
@@ -655,7 +655,7 @@ msgstr ""
 
 #: includes/pages/emg-welcome.php:392
 msgid "Additional Updates"
-msgstr ""
+msgstr "Actualizaciones adicionales"
 
 #: includes/pages/emg-welcome.php:398
 msgid "Language Packs Update"
@@ -679,31 +679,35 @@ msgstr ""
 
 #: includes/pages/emg-welcome.php:412
 msgid "Disable Notifications"
-msgstr ""
+msgstr "Desactivar notificaciones"
 
 #: includes/pages/emg-welcome.php:413
 msgid ""
 "In this version you will no longer see some annoying notifications in top of "
 "gallery editor page. Thanks for who suggested it."
 msgstr ""
+"En esta versión ya no ves algunas notificaciones molestas en la parte "
+"superior de la página del editor de galería. Gracias por que sugirió."
 
 #: includes/pages/emg-welcome.php:419
 msgid "Improved Some Core Function"
-msgstr ""
+msgstr "Mejora de la función"
 
 #: includes/pages/emg-welcome.php:420
 msgid ""
 " Some functions has been improved to be more robust and fast so you can "
 "generate your gallery/albums only in seconds."
 msgstr ""
+"Algunas funciones se han mejorado para ser más robusto y rápido por lo que "
+"puede generar tus álbumes de Galería sólo en segundos."
 
 #: includes/pages/emg-welcome.php:427
 msgid "View the Full Changelog"
-msgstr ""
+msgstr "Ver el registro de cambios"
 
 #: includes/pages/emg-welcome.php:444
 msgid " Changelog"
-msgstr ""
+msgstr " Changelog"
 
 #: includes/pages/emg-welcome.php:451
 msgid "Full Changelog"
@@ -757,10 +761,9 @@ msgstr "Necesita apoyo aún más rápido?"
 
 #: includes/pages/emg-welcome.php:500
 msgid ""
-"Just upgrade to <a target=\"_blank\" href=\"http://ghozylab.com/plugins/easy-"
-"media-gallery-pro/pricing/\">Pro version</a> and you will get Priority "
-"Support are there for customers that need faster and/or more in-depth "
-"assistance."
+"Just upgrade to <a target=\"_blank\" href=\"https://ghozy.link/eqiz9\">Pro "
+"version</a> and you will get Priority Support are there for customers that "
+"need faster and/or more in-depth assistance."
 msgstr ""
 
 #: includes/pages/emg-welcome.php:506
@@ -786,6 +789,10 @@ msgid ""
 "these videos to create new media. This user manual is only intended to be a "
 "reference guide."
 msgstr ""
+"Este plugin viene con videos de entrenamiento de instrucción que le guiarán "
+"a través de cada aspecto de la creación de su nueva galería de medios. "
+"Recomendamos seguir estos vídeos para crear nuevos medios de comunicación. "
+"Este manual de usuario sólo pretende ser una guía de referencia."
 
 #: includes/pages/emg-welcome.php:690
 msgid "No valid changelog was found."
@@ -806,7 +813,7 @@ msgstr ""
 #: includes/taxonomy.php:12
 msgctxt "easy-media-gallery"
 msgid "Add New Category"
-msgstr ""
+msgstr "Agregar Nueva Categoría"
 
 # @ default
 #: includes/taxonomy.php:13
@@ -847,6 +854,9 @@ msgstr "No se encontró en la basura Categoría"
 #: includes/taxonomy.php:27
 msgid "Emediagallery"
 msgstr ""
+
+#~ msgid "Earn EXTRA MONEY"
+#~ msgstr "Gana un dinero Extra"
 
 #~ msgid "Addons"
 #~ msgstr "Addons"

@@ -82,9 +82,9 @@ class EMG_Welcome {
 		remove_submenu_page( 'edit.php?post_type=easymediagallery', 'emg-changelog' );
 		remove_submenu_page( 'edit.php?post_type=easymediagallery', 'emg-getting-started' );
 		remove_submenu_page( 'edit.php?post_type=easymediagallery', 'emg-addons' );
-		remove_submenu_page( 'edit.php?post_type=easymediagallery', 'emg-demo' );
+		//remove_submenu_page( 'edit.php?post_type=easymediagallery', 'emg-demo' );
 		remove_submenu_page( 'edit.php?post_type=easymediagallery', 'emg-earn-xtra-money' );
-		remove_submenu_page( 'edit.php?post_type=easymediagallery', 'emg-free-plugins' );
+		//remove_submenu_page( 'edit.php?post_type=easymediagallery', 'emg-free-plugins' );
 		remove_submenu_page( 'edit.php?post_type=easymediagallery', 'emg-premium-plugins' );
 		
 		// Badge for welcome page
@@ -123,6 +123,10 @@ class EMG_Welcome {
         
 		<style type="text/css" media="screen">
 		/*<![CDATA[*/
+		
+		.emg-container-cnt .feature-section p {
+			max-width: 100% !important;	
+		}
 		
 		.emg-badge {
 			padding-top: 150px;
@@ -479,10 +483,10 @@ class EMG_Welcome {
 
 			<div class="emg-container-cnt">
 				<div class="feature-section">
-                	<h4><?php _e( 'How to Create Simple Photo Albums', 'easy-media-gallery' );?></h4>
-                <iframe width="853" height="480" src="https://www.youtube.com/embed/pjHvRoV2Bn8?rel=0" frameborder="0" allowfullscreen></iframe>
-                	<h4><?php _e( 'How to Create Simple Gallery', 'easy-media-gallery' );?></h4>
-                <iframe width="853" height="480" src="https://www.youtube.com/embed/H1Z3fidyEbE?rel=0" frameborder="0" allowfullscreen></iframe>
+                	<h3 style="font-style:italic;"><?php _e( 'How to Create Simple Photo Albums', 'easy-media-gallery' );?></h3>
+                <div style="padding:3px; border: solid 1px rgb(198, 198, 198); max-width:853px;"><iframe width="853" height="480" src="https://www.youtube.com/embed/pjHvRoV2Bn8?rel=0" frameborder="0" allowfullscreen></iframe></div><br />
+                	<h3 style="font-style:italic;"><?php _e( 'How to Create Simple Gallery', 'easy-media-gallery' );?></h3>
+               <div style="padding:1px; border: solid 1px rgb(198, 198, 198); max-width:853px;"><iframe width="853" height="480" src="https://www.youtube.com/embed/H1Z3fidyEbE?rel=0" frameborder="0" allowfullscreen></iframe></div>
                 <h4><?php _e( 'Video Tutorials on Youtube Channel', 'easy-media-gallery' );?></h4>
                 You can learn more by watching the video from <a href="https://www.youtube.com/GhozyLab" target="_blank">Youtube Channel</a>
 			</div>
@@ -497,7 +501,7 @@ class EMG_Welcome {
 					<h4><?php _e( 'Phenomenal Support','easy-media-gallery' );?></h4>
 					<p><?php _e( 'We do our best to provide the best support we can. If you encounter a problem or have a question, post a question in the <a href="https://wordpress.org/support/plugin/easy-media-gallery" target="_blank">support forums</a>.', 'easy-media-gallery' );?></p>
 					<h4><?php _e( 'Need Even Faster Support?', 'easy-media-gallery' );?></h4>
-					<p><?php _e( 'Just upgrade to <a target="_blank" href="http://ghozylab.com/plugins/easy-media-gallery-pro/pricing/">Pro version</a> and you will get Priority Support are there for customers that need faster and/or more in-depth assistance.', 'easy-media-gallery' );?></p>
+					<p><?php _e( 'Just upgrade to <a target="_blank" href="https://ghozy.link/eqiz9">Pro version</a> and you will get Priority Support are there for customers that need faster and/or more in-depth assistance.', 'easy-media-gallery' );?></p>
 
 				</div>
 			</div>
@@ -730,7 +734,7 @@ class EMG_Welcome {
 		
 		delete_option( 'Activated_Emg_Plugin' );
 		
-		wp_safe_redirect( admin_url( 'edit.php?post_type=easymediagallery&page=emg-whats-new' ) ); exit;
+		wp_safe_redirect( admin_url( 'edit.php?post_type=easymediagallery&page=emg-free-plugins' ) ); exit;
 		
     	}
 

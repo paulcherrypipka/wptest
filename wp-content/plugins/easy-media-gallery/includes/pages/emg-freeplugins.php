@@ -123,8 +123,8 @@ color: #FFF !important;
 }
 
 .lifted:after {
-    right:10px; 
-    left:auto;
+    right:10px !important; 
+    left:auto !important;
     -webkit-transform:rotate(3deg);   
        -moz-transform:rotate(3deg);  
         -ms-transform:rotate(3deg);  
@@ -220,7 +220,7 @@ color: #FFF !important;
 		<div class="plugin-card drop-shadow lifted">
 			<div class="plugin-card-top" style="min-height: 160px !important;">
             <?php if ( isset( $plugin["slug"] ) && $plugin["slug"] == 'image-slider-widget' ) {echo '<div class="most_popular"></div>';} ?>
-				<a href="<?php echo esc_url( $details_link ); ?>" class="thickbox plugin-icon"><img src="<?php echo esc_attr( $plugin_icon_url ) ?>" /></a>
+				<a href="<?php echo esc_url( $details_link ); ?>" class="thickbox plugin-icon"><img width="128" height="128" src="<?php echo esc_attr( $plugin_icon_url ) ?>" /></a>
 				<div class="name column-name" style="margin-right: 20px !important;">
 					<h4><a href="<?php echo esc_url( $details_link ); ?>" class="thickbox"><?php echo $title; ?></a></h4>
 				</div>
@@ -237,19 +237,23 @@ color: #FFF !important;
 							
 							switch( $plugin["slug"] ){
 								case "easy-media-gallery" :
-								echo '<li><a class="button" aria-label="PRO VERSION DEMO" href="https://ghozylab.com/plugins/easy-media-gallery-pro/demo/" target="_blank">PRO VERSION DEMO</a></li>';
+								echo '<li><a class="button" aria-label="PRO VERSION DEMO" href="https://ghozy.link/l48ax" target="_blank">PRO VERSION DEMO</a></li>';
 								break;
 								
 								case "image-slider-widget" :
-								echo '<li><a class="button" aria-label="PRO VERSION DEMO" href="http://demo.ghozylab.com/plugins/easy-image-slider-plugin/image-slider-with-thumbnails-at-the-bottom/" target="_blank">PRO VERSION DEMO</a></li>';
+								echo '<li><a class="button" aria-label="PRO VERSION DEMO" href="https://ghozy.link/9vlg3" target="_blank">PRO VERSION DEMO</a></li>';
 								break;
 								
 								case "easy-notify-lite" :
-								echo '<li><a class="button" aria-label="PRO VERSION DEMO" href="https://ghozylab.com/plugins/easy-notify-pro/demo/" target="_blank">PRO VERSION DEMO</a></li>';
+								echo '<li><a class="button" aria-label="PRO VERSION DEMO" href="https://ghozy.link/nz32r" target="_blank">PRO VERSION DEMO</a></li>';
 								break;
 								
 								case "contact-form-lite" :
-								echo '<li><a class="button" aria-label="PRO VERSION DEMO" href="http://demo.ghozylab.com/plugins/easy-contact-form-plugin/contact-form-recaptcha/" target="_blank">PRO VERSION DEMO</a></li>';
+								echo '<li><a class="button" aria-label="PRO VERSION DEMO" href="https://ghozy.link/wtsnb" target="_blank">PRO VERSION DEMO</a></li>';
+								break;
+								
+								case "feed-instagram-lite" :
+								echo '<li><a class="button" aria-label="PRO VERSION DEMO" href="http://demo.ghozylab.com/plugins/instagram-feed-plugin/" target="_blank">PRO VERSION DEMO</a></li>';
 								break;
 								
 								default:

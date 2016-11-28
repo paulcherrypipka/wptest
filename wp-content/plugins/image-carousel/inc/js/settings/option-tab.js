@@ -199,7 +199,7 @@ jQuery(document).ready(function($) {
 
 				default:
 			
-				alert('Failed! Please refresh the page and try again.');
+				alert('Cannot Complete Your Request, please refresh the page and try again.');
 				elmt.removeAttr('disabled');
 				jQuery('#loader_icp_purge').removeClass('button_loading');
 				jQuery('#cache_act_status').hide();

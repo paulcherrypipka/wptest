@@ -35,7 +35,7 @@ function easymedia_comparison() {
     <div class="wrap">
         <div id="icon-edit" class="icon32 icon32-posts-easymedia"><br /></div>
         <h2><?php _e('Comparison', 'easy-media-gallery'); ?></h2>     
-  <div class="tsc_pricingtable03 tsc_pt3_style1" style="margin-bottom:110px; height:1300px;">
+  <div class="tsc_pricingtable03 tsc_pt3_style1" style="margin-bottom:110px; height:1340px;">
     <div class="caption_column">
       <ul>
         <li class="header_row_1 align_center radius5_topleft"><?php emg_share(); ?></li>
@@ -48,13 +48,13 @@ function easymedia_comparison() {
         <li class="row_style_4"><span>Audio Media</span></li>
         <li class="row_style_2"><span>HTML5 Video/Audio (mp4, webm, ogv)</span></li>   
         <li class="row_style_4"><span>Auto Fetch Youtube/Vimeo Thumbnail</span></li>    
-        <li class="row_style_2"><span style="font-weight:bold; color:#1064EF">Photo Albums</span><a target="_blank" href="https://goo.gl/olicHt" style="text-decoration:underline !important;"> Click for Sample</a>&nbsp;&nbsp;<span class="newftr"></span></li>
-<li class="row_style_4"><span style="font-weight:bold; color:#1064EF">Image Gallery</span><a target="_blank" href="https://goo.gl/GVrfN9" style="text-decoration:underline !important;"> Click for Sample</a>&nbsp;&nbsp;<span class="newftr"></span></li>          
-        <li class="row_style_2"><span style="font-weight:bold; color:#1064EF">Image Slider</span><a target="_blank" href="https://goo.gl/23bfmy" style="text-decoration:underline !important;"> Click for Sample</a>&nbsp;&nbsp;<span class="newftr"></span></li>
-         <li class="row_style_4"><span style="font-weight:bold; color:#1064EF">Portfolio</span><a target="_blank" href="https://goo.gl/GqupzD" style="text-decoration:underline !important;"> Click for Sample</a>&nbsp;&nbsp;<span class="newftr"></span></li>                     
-        <li class="row_style_2"><span style="font-weight:bold; color:#1064EF">Pagination</span><a target="_blank" href="https://goo.gl/7SWHXO" style="text-decoration:underline !important;"> Click for Sample</a>&nbsp;&nbsp;<span class="newftr"></span></li>
-        <li class="row_style_4"><span style="font-weight:bold; color:#1064EF">Image Carousel</span><a target="_blank" href="https://goo.gl/4EjEcf" style="text-decoration:underline !important;"> Click for Sample</a>&nbsp;&nbsp;<span class="newftr"></span></li>
-        <li class="row_style_2"><span style="font-weight:bold; color:#1064EF">10+ Lightbox styles</span><a target="_blank" href="https://goo.gl/EbxHG5" style="text-decoration:underline !important;"> Click for Sample</a>&nbsp;&nbsp;<span class="newftr"></span></li>      
+        <li class="row_style_2"><span style="font-weight:bold; color:rgb(231, 32, 32);">Photo Albums</span><a target="_blank" href="https://ghozy.link/hkpae" style="text-decoration:underline !important;"> Click for Sample</a>&nbsp;&nbsp;<span class="newftr"></span></li>
+<li class="row_style_4"><span style="font-weight:bold; color:rgb(231, 32, 32);">Image Gallery</span><a target="_blank" href="https://ghozy.link/twfb3" style="text-decoration:underline !important;"> Click for Sample</a>&nbsp;&nbsp;<span class="newftr"></span></li>          
+        <li class="row_style_2"><span style="font-weight:bold; color:rgb(231, 32, 32);">Image Slider</span><a target="_blank" href="https://ghozy.link/jli2c" style="text-decoration:underline !important;"> Click for Sample</a>&nbsp;&nbsp;<span class="newftr"></span></li>
+         <li class="row_style_4"><span style="font-weight:bold; color:rgb(231, 32, 32);">Portfolio</span><a target="_blank" href="https://ghozy.link/786sm" style="text-decoration:underline !important;"> Click for Sample</a>&nbsp;&nbsp;<span class="newftr"></span></li>                     
+        <li class="row_style_2"><span style="font-weight:bold; color:rgb(231, 32, 32);">Pagination</span><a target="_blank" href="https://ghozy.link/k2p13" style="text-decoration:underline !important;"> Click for Sample</a>&nbsp;&nbsp;<span class="newftr"></span></li>
+        <li class="row_style_4"><span style="font-weight:bold; color:rgb(231, 32, 32);">Image Carousel</span><a target="_blank" href="https://ghozy.link/j2zdq" style="text-decoration:underline !important;"> Click for Sample</a>&nbsp;&nbsp;<span class="newftr"></span></li>
+        <li class="row_style_2"><span style="font-weight:bold; color:rgb(231, 32, 32);">10+ Lightbox styles</span><a target="_blank" href="https://ghozy.link/tx34a" style="text-decoration:underline !important;"> Click for Sample</a>&nbsp;&nbsp;<span class="newftr"></span></li>      
         <li class="row_style_4"><span>Backup & Restore Settings</span></li>
         <li class="row_style_2"><span>Google Maps / Street View</span></li>
         <li class="row_style_4"><span>Custom CSS</span></li>
@@ -65,7 +65,7 @@ function easymedia_comparison() {
         <li class="row_style_2"><span>Image &amp; Video Custom Size</span></li>
         <li class="row_style_4"><span>Unlimited colors and layout</span></li>
         <li class="row_style_2"><span>Pattern Overlay</span></li>
-        <li class="row_style_4"><span>Powerfull Control Panel </span> <a href="http://demo.ghozylab.com/content/pro.html?utm_source=comparison&utm_medium=comparisonpage&utm_campaign=gotodemoprocp" target="_blank" style="text-decoration:underline !important;">Screenshot</a></li>
+        <li class="row_style_4"><span>Powerfull Control Panel </span> <a href="https://ghozy.link/ochsz" target="_blank" style="text-decoration:underline !important;">Screenshot</a></li>
         <li class="row_style_2"><span>Advanced Shortcode </span><a href="<?php echo plugins_url( 'images/pro-version-shortcode-manager.png' , dirname(__FILE__) ) ?>" target="_blank" style="text-decoration:underline !important;">Screenshot</a></li>
         <li class="row_style_4"><span>Facebook, Twitter &amp; Pinterest share buttons</span></li>
          <li class="row_style_2"><span>AJAX page/post load Support</span></li>
@@ -73,6 +73,7 @@ function easymedia_comparison() {
         <li class="row_style_4"><span>Support</span></li>
         <li class="row_style_2"><span>Update</span></li>
         <li class="row_style_4"><span>License</span></li>
+        <li class="row_style_2"><span>Price</span></li>
         <li class="footer_row emgscrollto"></li>
       </ul>
     </div>
@@ -115,6 +116,7 @@ function easymedia_comparison() {
         <li class="row_style_3 align_center"><span class="pricing_no"></span></li>
         <li class="row_style_1 align_center"><span class="pricing_yes"></span></li>
         <li class="row_style_3 align_center">None</li>
+        <li class="row_style_1 align_center"><span style="font-weight: bold; color: #666; font-size:18px;">Free</span></li>
          
         <li class="footer_row"></li>
       </ul>
@@ -159,6 +161,7 @@ function easymedia_comparison() {
         <li class="row_style_4 align_center"><span>1 Month</span></li>
         <li class="row_style_2 align_center"><span>1 Year</span></li>
         <li class="row_style_4 align_center"><span style="font-weight: bold; color:#F77448; font-size:14px;">1 Site</span></li>
+        <li class="row_style_2 align_center"><span style="font-weight: bold; color: #666; font-size:18px;">$<?php echo EASYMEDIA_PRO_PRICE; ?></span></li>
         <li class="footer_row"><a target="_blank" href="https://ghozylab.com/plugins/ordernow.php?order=pro&utm_source=lite&utm_medium=comparisonpage&utm_campaign=orderfromcompare" class="tsc_buttons2 blue">Upgrade Now</a></li>
       </ul>
     </div>    
@@ -203,6 +206,7 @@ function easymedia_comparison() {
         <li class="row_style_4 align_center"><span>1 year</span></li>
         <li class="row_style_2 align_center"><span>1 year</span></li>
         <li class="row_style_4 align_center"><span style="font-weight: bold; color:#F77448; font-size:14px;">3 Sites</span></li>
+        <li class="row_style_2 align_center"><span style="font-weight: bold; color: #666; font-size:18px;">$<?php echo EASYMEDIA_PRICE; ?></span></li>
         <li class="footer_row"><a target="_blank" href="https://ghozylab.com/plugins/ordernow.php?order=proplus&utm_source=lite&utm_medium=comparisonpage&utm_campaign=orderfromcompare" class="tsc_buttons2 red">Upgrade Now</a></li>
       </ul>
     </div>
@@ -245,6 +249,7 @@ function easymedia_comparison() {
         <li class="row_style_4 align_center"><span>1 year</span></li>
         <li class="row_style_2 align_center"><span>1 year</span></li>
         <li class="row_style_4 align_center"><span style="font-weight: bold; color:#F77448; font-size:14px;">5 Sites</span></li>
+        <li class="row_style_2 align_center"><span style="font-weight: bold; color: #666; font-size:18px;">$<?php echo EASYMEDIA_PLUS_PRICE; ?></span></li>
         <li class="footer_row"><a target="_blank" href="https://ghozylab.com/plugins/ordernow.php?order=proplusplus&utm_source=lite&utm_medium=comparisonpage&utm_campaign=orderfromcompare" class="tsc_buttons2 green">Upgrade Now</a></li>
       </ul>
     </div>    
@@ -287,6 +292,7 @@ function easymedia_comparison() {
         <li class="row_style_3 align_center"><span>1 year</span></li>
         <li class="row_style_1 align_center"><span>1 year</span></li>
         <li class="row_style_3 align_center"><span style="font-weight: bold; color: #F77448; font-size:14px;">15 Sites</span></li>
+        <li class="row_style_1 align_center"><span style="font-weight: bold; color: #666; font-size:18px;">$<?php echo EASYMEDIA_DEV_PRICE; ?></span></li>
         <li class="footer_row"><a target="_blank" href="https://ghozylab.com/plugins/ordernow.php?order=dev&utm_source=lite&utm_medium=comparisonpage&utm_campaign=orderfromcompare" class="tsc_buttons2 orange">Upgrade Now</a></li>
       </ul>
     </div>   

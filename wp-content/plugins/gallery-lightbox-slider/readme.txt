@@ -3,12 +3,12 @@ Contributors: GhozyLab
 Donate link: https://plasso.co/donate@ghozylab.com
 Tags: gallery, image, images, image lightbox, slider, free gallery, best gallery, lightbox picture, gallery lightbox, photo lightbox, photo slider, image slider
 Requires at least: 3.3
-Tested up to: 4.4.2
-Stable tag: 1.0.0.25
+Tested up to: 4.6
+Stable tag: 1.0.0.29
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Gallery Lightbox - Displays your images gallery into the awesome and responsive lightbox slider in just a few seconds
+Display your Wordpress galleries in a lightbox
 
 == Description ==
 WordPress supports image galleries without having to use any plugins. The native WordPress **image gallery** displays as a grid of image thumbnails. This plugin will help you to make the thumbnails in the grid will display the large version of the image in lightbox mode on top of the content rather than taking the user away from the page easily.
@@ -47,6 +47,8 @@ The following are other recommended plugins by the author:
 * Swedish
 * Bahasa Indonesia
 * Hebrew
+* Malaysia
+* Polish
 
 > #### **NOTE**
 > If you would like to create your own language pack or update the existing one, you can send <a href="http://codex.wordpress.org/Translating_WordPress" title="Translating WordPress" target="_blank">the text of PO and MO files</a> for <a href="https://ghozylab.com/plugins/" title="GhozyLab" target="_blank">GhozyLab</a> and we'll add it to the plugin. You can download the latest version of the program for work with PO and MO files  <a href="http://www.poedit.net/download.php" title="Download Poedit" target="_blank">Poedit</a>.
@@ -115,16 +117,26 @@ There are no complicated instructions for using Gallery Lightbox plugin because 
 
 == Upgrade Notice ==
 
-= 1.0.0.25 =
+= 1.0.0.29 =
 
 IMPORTANT! BUGS FIX, PLEASE UPDATE NOW!
 
 == Changelog ==
 
+= 1.0.0.29 =
+
+* New : Malaysia Language ( ms_MY )
+* Timestamp : none
+
+= 1.0.0.27 =
+
+* Update  : POT file and all Languages
+* Timestamp : 03/13/16 00:01:17
+
 = 1.0.0.25 =
 
 * Added  : New Option to Enable / Disable Lightbox Fancy Caption
-* Timestamp : none
+* Timestamp : 02/06/16 17:14:18
 
 = 1.0.0.23 =
 

@@ -7,7 +7,7 @@ Description: Displays your images gallery into the awesome and responsive lightb
 Author: GhozyLab, Inc.
 Text Domain: gallery-lightbox-slider
 Domain Path: /languages
-Version: 1.0.0.25
+Version: 1.0.0.29
 Author URI: http://www.ghozylab.com/plugins/
 */
 
@@ -24,7 +24,7 @@ $glg_plugin_url = substr( plugin_dir_url( __FILE__ ), 0, -1 );
 $glg_plugin_dir = substr( plugin_dir_path( __FILE__ ), 0, -1 );
 
 define( 'GLG_ITEM_NAME', 'Gallery Lighbox Lite' );
-define( 'GLG_VERSION', '1.0.0.25' );
+define( 'GLG_VERSION', '1.0.0.29' );
 define( 'GLG_PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
 define( 'GLG_URL', $glg_plugin_url );
 define( 'GLG_DIR', $glg_plugin_dir );

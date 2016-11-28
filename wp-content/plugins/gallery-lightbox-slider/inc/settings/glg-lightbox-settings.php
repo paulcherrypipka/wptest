@@ -15,7 +15,7 @@ if ( ! defined( 'ABSPATH' ) ) exit;
 
 		<table class="tbl_custom">
         
-<div class="glg-info">If you use <strong><?php echo GLG_ITEM_NAME; ?></strong> and found it useful then please consider rating it and leaving your positive feedback <a href="https://wordpress.org/support/view/plugin-reviews/gallery-lightbox-slider?filter=5#postform" target="_blank" style="color: #06F !important;">here</a></div> 
+<div class="glg-info">If you use Gallery Lightbox Lite and found it useful then please consider rating it and leaving your positive feedback <a href="https://wordpress.org/support/plugin/gallery-lightbox-slider/reviews/?filter=5" target="_blank" style="color: #06F !important;">here</a></div> 
         
         <tr valign="top" >
         <th><?php _e('Enable Lightbox in All Post/Page', 'gallery-lightbox-slider');?></th>
@@ -36,7 +36,7 @@ if ( ! defined( 'ABSPATH' ) ) exit;
         
 <input name="glg_gallery_active" type="checkbox" id="glg_gallery_active" <?php checked( 'active', $isactive );?> value='active' />
    <input name="glg_gallery_active" type="hidden" class="glg_gallery_active" value='<?php print( $isactive ); ?>' />     
-        <p class="description"><?php  _e('Use this option to mass Enable or Disable the Lightbox', 'gallery-lightbox-slider'); ?></p>
+        <p class="description"><?php  _e('Use this option to Enable or Disable the Lightbox in all Post or Page', 'gallery-lightbox-slider'); ?></p>
         </td>
         </tr>
 

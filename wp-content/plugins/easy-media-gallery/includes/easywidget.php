@@ -45,7 +45,7 @@ class emg_sc_widget extends WP_Widget {
 		$emg_shortcode = !empty( $instance['emg_shortcode'] ) ? esc_textarea( $instance['emg_shortcode'] ) : '';
 		
 
-            echo '<p><label for="'.$this->get_field_id('emg_shortcode').'">Make sure to generate the shortcode from post or page, copy the shortcode and paste to the following field.</label>
+            echo '<p><label for="'.$this->get_field_id('emg_shortcode').'">Make sure to generate the shortcode from post or page first, after that copy the shortcode and paste to the following field.</label>
                 <textarea rows="5" class="widefat" id="'.$this->get_field_id('emg_shortcode').'" name="'.$this->get_field_name('emg_shortcode').'">'.$emg_shortcode.'</textarea>
             </p>';
     

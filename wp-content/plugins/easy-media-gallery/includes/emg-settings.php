@@ -312,7 +312,7 @@ if ( isset( $_REQUEST['reset'] ) ) { echo '<script type="text/javascript">
     jQuery(".infoboxsaveorreset").show("slow");
     });
     </script>';
-	$saveresmsg = 'Settings reset...'; }
+	$saveresmsg = 'Settings reset successfully...'; }
  
 ?>
 <div id="spg_container">
@@ -326,7 +326,7 @@ if ( isset( $_REQUEST['reset'] ) ) { echo '<script type="text/javascript">
     </div>
 
 <div id="main">
-<div style="width: auto;" class="infoboxdemo"><a target='_blank' href='https://ghozylab.com/plugins/'>Click Here to See Amazing Pro Version DEMO</a></div>
+<div style="width: auto;" class="infoboxdemo"><a target='_blank' href='https://ghozy.link/jk73o'>Click Here to See Amazing Pro Version DEMO</a></div>
 <div class="infoboxsaveorreset"><?php echo $saveresmsg; ?></div>
 <form method="post">
 <div class="sps_wrap">

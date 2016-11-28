@@ -21,7 +21,7 @@
 * @return str|array
 */
 
-function easymedia_resizer( $url, $orig_w, $orig_h, $width, $height = null, $crop = null, $single = true ) {
+function easymedia_resizer( $url, $orig_w, $orig_h, $width = null, $height = null, $crop = null, $single = true ) {
 	
 	//validate inputs
 	if(!$url OR !$width ) return false;

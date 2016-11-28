@@ -214,13 +214,13 @@ if ( strstr( $_SERVER['REQUEST_URI'], 'wp-admin/post-new.php' ) || strstr( $_SER
 			.emghvrbutton {
 				cursor:pointer;
 				margin-top: 7px;
-				-webkit-filter: grayscale(100%);
+				-webkit-filter: grayscale(0%);
 				}
 				
 				.emghvrbutton:hover {
 					filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 3.5+ */
 					filter: gray; /* IE6-9 */
-					-webkit-filter: grayscale(0%); /* Chrome 19+ & Safari 6+ */
+					-webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
 }
 			   
 				</style>   
@@ -274,7 +274,7 @@ jQuery(document).ready(function($) {
 	
 // MESSI POPUP	
 		jQuery('#videofrmt').on('click', function() {
-          new Messi('<p> - <strong>Youtube 1 :</strong> http://www.youtube.com/watch?v=JaNH56Vpg-A</p><p> - <strong>Youtube 2 :</strong> http://www.youtube.com/embed/JaNH56Vpg-A</p><p> - <strong>Youtube 3 :</strong> http://youtu.be/BWmWAPb_z90</p><p> - <strong>Youtube Playlist :</strong> http://www.youtube.com/watch?v=S_Az2Zg5OLc&list=PLFrmfElpm4lwVff3JvmtSJzxYFFb2093q</p><p> - <strong>Vimeo :</strong> http://vimeo.com/798022</p><p> - <strong>DailyMotion :</strong> http://www.dailymotion.com/video/xzefrs_steven-spielberg-s-obama_shortfilms#.UX8g_O8kZM4</p><p> - <strong>MetaCafe :</strong> http://www.metacafe.com/watch/2185365/spot_electrabel_gdf_suez_happy_new_year_2009/</p><p> - <strong>Facebook :</strong> https://www.facebook.com/video/embed?video_id=557900707562656</p><p> - <strong>Veoh :</strong> http://www.veoh.com/watch/v20943320Dz9Z45Qj</p><p> - <strong>Flickr video :</strong> http://www.flickr.com/photos/bhl1/2402027765/in/pool-video</p><p> - <strong>Google video :</strong> http://video.google.com/videoplay?docid=-8111235669135653751</p><p> - <strong>Quietube + Youtube :</strong> http://quietube.com/v.php/http://www.youtube.com/watch?v=b5Ff2X_3P_4</p><p> - <strong>Quietube + Vimeo :</strong> http://quietube.com/v.php/http://vimeo.com/2295261</p><p> - <strong>Tudou :</strong> http://www.tudou.com/programs/view/KG2UG_U4DMY/</p><p> - <strong>YouKu :</strong> http://v.youku.com/v_show/id_XNDI1MDkyMDQ==.html</p>', {title: 'Sample video format', modal: true});
+          new Messi('<p> - <strong>Youtube 1 :</strong> http://www.youtube.com/watch?v=JaNH56Vpg-A</p><p> - <strong>Youtube 2 :</strong> http://www.youtube.com/embed/JaNH56Vpg-A</p><p> - <strong>Youtube 3 :</strong> http://youtu.be/BWmWAPb_z90</p><p> - <strong>Youtube Playlist :</strong> http://www.youtube.com/watch?v=S_Az2Zg5OLc&list=PLFrmfElpm4lwVff3JvmtSJzxYFFb2093q</p><p> - <strong>Vimeo :</strong> http://vimeo.com/798022</p><p> - <strong>DailyMotion :</strong> http://www.dailymotion.com/video/xzefrs_steven-spielberg-s-obama_shortfilms#.UX8g_O8kZM4</p><p> - <strong>MetaCafe :</strong> http://www.metacafe.com/watch/2185365/spot_electrabel_gdf_suez_happy_new_year_2009/</p><p> - <strong>Facebook 1 :</strong> https://www.facebook.com/video/embed?video_id=557900707562656</p><p> - <strong>Facebook 2 :</strong> https://www.facebook.com/gopro/videos/10153893757506919/</p><p> - <strong>Veoh :</strong> http://www.veoh.com/watch/v20943320Dz9Z45Qj</p><p> - <strong>Flickr video :</strong> http://www.flickr.com/photos/bhl1/2402027765/in/pool-video</p><p> - <strong>Google video :</strong> http://video.google.com/videoplay?docid=-8111235669135653751</p><p> - <strong>Quietube + Youtube :</strong> http://quietube.com/v.php/http://www.youtube.com/watch?v=b5Ff2X_3P_4</p><p> - <strong>Quietube + Vimeo :</strong> http://quietube.com/v.php/http://vimeo.com/2295261</p><p> - <strong>Tudou :</strong> http://www.tudou.com/programs/view/KG2UG_U4DMY/</p><p> - <strong>YouKu :</strong> http://v.youku.com/v_show/id_XNDI1MDkyMDQ==.html</p>', {title: 'Sample video format', modal: true});
 		  });
 
 		jQuery('.messivideo').bind('click', function() {
@@ -389,7 +389,7 @@ function IsValidAuUrl1(aurl1) {
         src: url,
         fail: function() {
 			jQuery("#notifynovalidimg").show("slow");
-			jQuery('#notifynovalidimg').html("Unable to load image from url above. Please make sure it's the <strong>full</strong> URL and a valid one at that.");
+			jQuery('#notifynovalidimg').html("Unable to load image from url above. Please make sure to input <strong>full</strong> URL.");
 				jQuery("#imgpreviewbox").hide("slow");
 				jQuery(".deleteimage").hide("slow");
 
@@ -572,7 +572,7 @@ echo '<div class="messivideo" data-yvid="https://www.youtube.com/embed/Bsn-CB5Hp
 	
 			case 'select':
 			
-				echo '<div class="emginfobox"><span class="emg_blink">Upgrade to PRO</span> and you can select <a href="http://goo.gl/PLlJwS" target="_blank">Photo Albums</a>, <a href="http://goo.gl/bZ53YR" target="_blank">Grid Gallery</a>, <a href="http://goo.gl/JAvlsq" target="_blank">Filterable Media</a>, HTML5 Video/Audio, Google Maps/Street View, embed from Soundcloud or Reverbnation and also Link to specific URL. You can learn more and see version comparison <a href="edit.php?post_type=easymediagallery&page=comparison">here</a> or go to Pro Version DEMO <a href="http://goo.gl/qG29Me" target="_blank">here</a></div>';
+				echo '<div class="emginfobox"><span class="emg_blink">Upgrade to PRO</span> and you can select <a href="https://ghozy.link/q3mh8" target="_blank">Photo Albums</a>, <a href="https://ghozy.link/fxgb0" target="_blank">Grid Gallery</a>, <a href="https://ghozy.link/dm0qt" target="_blank">Filterable Media</a>, HTML5 Video/Audio, Google Maps/Street View, embed from Soundcloud or Reverbnation and also Link to specific URL. You can learn more and see version comparison <a href="edit.php?post_type=easymediagallery&page=comparison">here</a> or go to Pro Version DEMO <a href="https://ghozy.link/5xduf" target="_blank">here</a></div>';
 				echo'<td><select style="width:200px;" name="easmedia_meta['. $field['id'] .']" id="'. $field['id'] .'">';
 				foreach ( $field['options'] as $key => $option ){
 					echo '<option value="' . $option . '"';
@@ -837,8 +837,8 @@ function easmedia_metabox_work(){
 			array(
 		
 					'name' => __( '<span class="gtips">Tips:</span>', 'easy-media-gallery' ),
-					'desc' => __( '<ul class="gtipslist"><li>Use <b>Ctrl + Click</b> on each image to select multiple images at once.</li><li>You also can drag and drop images to re-order.</li><li>Click on image to edit title/subtitle ( <i>Pro Version only</i> )</li><li class="messivideo" data-yvid="https://www.youtube.com/embed/H1Z3fidyEbE?rel=0">Tutorial How to Create Gallery</li>
-<li class="messivideo" data-yvid="https://www.youtube.com/embed/pjHvRoV2Bn8?rel=0">Tutorial How to Create Album</li></ul>', 'easy-media-gallery' ),
+					'desc' => __( '<ul class="gtipslist"><li class="messivideo" data-yvid="https://www.youtube.com/embed/H1Z3fidyEbE?rel=0">Tutorial How to Create Gallery</li>
+<li class="messivideo" data-yvid="https://www.youtube.com/embed/pjHvRoV2Bn8?rel=0">Tutorial How to Create Album</li><li>Use <b>Ctrl + Click</b> on each image to select multiple images at once.</li><li>You also can drag and drop images to re-order.</li><li>Click on image to edit title/subtitle ( <i>Pro Version only</i> )</li></ul>', 'easy-media-gallery' ),
 					'id' => 'easmedia_metabox_media_gallery',
 					'gallid' => 'easmedia_metabox_media_gallery_id',
 					'type' => 'gallery',

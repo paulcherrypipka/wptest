@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Easy Media Gallery v1.2.29\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-02-07 00:33+0700\n"
-"PO-Revision-Date: 2016-02-07 00:33+0700\n"
+"POT-Creation-Date: 2016-05-03 09:25+0700\n"
+"PO-Revision-Date: 2016-05-03 09:25+0700\n"
 "Last-Translator: GhozyLab <lang@ghozylab.com>\n"
 "Language-Team: \n"
 "Language: ro_RO\n"
@@ -20,117 +20,117 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 
 # @ easmedia
-#: easy-media-gallery.php:212 includes/emg-settings.php:40
-#: includes/functions/functions.php:1103
+#: easy-media-gallery.php:220 includes/emg-settings.php:40
+#: includes/functions/functions.php:1142
 msgid "Settings"
 msgstr "Setari"
 
-#: easy-media-gallery.php:233
+#: easy-media-gallery.php:241
 msgid "Donate"
 msgstr "Dona"
 
-#: easy-media-gallery.php:234
+#: easy-media-gallery.php:242
 msgid "Tutorials"
 msgstr "Tutoriale"
 
-#: easy-media-gallery.php:235
+#: easy-media-gallery.php:243
 msgid "Rate Us"
 msgstr "Ne Evalua"
 
-#: easy-media-gallery.php:250
+#: easy-media-gallery.php:258
 msgctxt "post type general name"
 msgid "Easy Media Gallery Lite"
-msgstr ""
+msgstr "Easy Media Gallery Lite"
 
-#: easy-media-gallery.php:251
+#: easy-media-gallery.php:259
 msgctxt "post type singular name"
 msgid "Easy Media Gallery Lite"
-msgstr ""
+msgstr "Easy Media Gallery Lite"
 
 # @ easmedia
-#: easy-media-gallery.php:252 includes/functions/functions.php:1081
+#: easy-media-gallery.php:260 includes/functions/functions.php:1120
 msgid "Add New Media"
 msgstr "Adauga New Media"
 
 # @ easmedia
-#: easy-media-gallery.php:253
+#: easy-media-gallery.php:261
 msgid "Easy Media Item"
-msgstr ""
+msgstr "Easy Media Item"
 
 # @ easmedia
-#: easy-media-gallery.php:254
+#: easy-media-gallery.php:262
 msgid "Edit Media"
 msgstr "Edita Media"
 
 # @ easmedia
-#: easy-media-gallery.php:255
+#: easy-media-gallery.php:263
 msgid "New Media"
 msgstr "Nou Media"
 
 # @ easmedia
-#: easy-media-gallery.php:256
+#: easy-media-gallery.php:264
 msgid "View Media"
 msgstr "Vezi Media"
 
 # @ easmedia
-#: easy-media-gallery.php:257
+#: easy-media-gallery.php:265
 msgid "Search Media"
 msgstr "Căutare Media"
 
 # @ easmedia
-#: easy-media-gallery.php:258
+#: easy-media-gallery.php:266
 msgid "No Media Found"
-msgstr ""
+msgstr "Nu există Media găsit"
 
 # @ easmedia
-#: easy-media-gallery.php:259
+#: easy-media-gallery.php:267
 msgid "No Media Found In Trash"
-msgstr ""
+msgstr "Nu există suport media găsit în coșul de gunoi"
 
 # @ easmedia
-#: easy-media-gallery.php:260
+#: easy-media-gallery.php:268
 msgid "Parent Media"
 msgstr ""
 
 # @ easmedia
-#: easy-media-gallery.php:261 easy-media-gallery.php:269
+#: easy-media-gallery.php:269 easy-media-gallery.php:277
 msgid "Easy Media"
 msgstr ""
 
 # @ easmedia
-#: easy-media-gallery.php:327
+#: easy-media-gallery.php:336
 msgctxt "column name"
 msgid "Title"
 msgstr "Titlu"
 
 # @ easmedia
-#: easy-media-gallery.php:328
+#: easy-media-gallery.php:337
 msgid "Thumbnails"
 msgstr "Miniaturi"
 
 # @ easmedia
-#: easy-media-gallery.php:329
+#: easy-media-gallery.php:338
 msgid "Type"
 msgstr "Tipe"
 
 # @ easmedia
 # @ default
-#: easy-media-gallery.php:330 includes/functions/functions.php:1092
+#: easy-media-gallery.php:339 includes/functions/functions.php:1131
 #: includes/taxonomy.php:20
 msgid "Categories"
 msgstr "Categorii"
 
 # @ easmedia
-#: easy-media-gallery.php:331
+#: easy-media-gallery.php:340
 msgid "ID"
 msgstr "ID"
 
 # @ easmedia
-#: easy-media-gallery.php:399
+#: easy-media-gallery.php:408
 msgid "None"
 msgstr "Nici Una"
 
-#: easy-media-gallery.php:529 includes/functions/functions.php:1070
+#: easy-media-gallery.php:540 includes/functions/functions.php:1109
 msgid "Overview"
 msgstr "Generalitati"
 
@@ -138,7 +138,7 @@ msgstr "Generalitati"
 msgid "Use this widget to display your media as a widget."
 msgstr "Utilizaţi acest widget pentru a afişa mass-media ca un widget."
 
-#: includes/easywidget.php:11 includes/functions/functions.php:1060
+#: includes/easywidget.php:11 includes/functions/functions.php:1099
 msgid "Easy Media Gallery"
 msgstr ""
 
@@ -176,13 +176,13 @@ msgid "+ %s"
 msgstr ""
 
 # @ easmedia
-#: includes/functions/functions.php:614 includes/functions/functions.php:628
-#: includes/functions/functions.php:656 includes/functions/functions.php:1114
+#: includes/functions/functions.php:615 includes/functions/functions.php:629
+#: includes/functions/functions.php:657 includes/functions/functions.php:1153
 msgid "Sorter"
 msgstr "Sortare"
 
 # @ easmedia
-#: includes/functions/functions.php:629
+#: includes/functions/functions.php:630
 msgid ""
 "Simply drag the Media up or down and they will be saved in that order. Media "
 "at the top will appear first."
@@ -191,25 +191,25 @@ msgstr ""
 "această ordine. Mass-media în partea de sus va apărea prima."
 
 # @ easmedia
-#: includes/functions/functions.php:633 includes/functions/functions.php:659
+#: includes/functions/functions.php:634 includes/functions/functions.php:660
 msgid "Sort Media"
 msgstr ""
 
 # @ easmedia
-#: includes/functions/functions.php:660
+#: includes/functions/functions.php:661
 #, php-format
 msgid "No items found, why not %screate one%s?\t"
 msgstr ""
 
-#: includes/functions/functions.php:715
+#: includes/functions/functions.php:716
 msgid "Easy Media Gallery (Lite) "
-msgstr ""
+msgstr "Easy Media Gallery (Lite) "
 
-#: includes/functions/functions.php:859
+#: includes/functions/functions.php:898
 msgid "<img src=\""
 msgstr ""
 
-#: includes/functions/functions.php:924
+#: includes/functions/functions.php:963
 msgid ""
 "We recommend you to enable plugin Auto Update so you will get the latest "
 "features and other important updates of Easy Media Gallery.<br />Click <a "
@@ -221,27 +221,23 @@ msgstr ""
 "Gallery.<br>Faceţi clic <a href=\"#\"><strong><span id=\"doautoupdate"
 "\">aici</span></strong></a> pentru a activa Auto Update."
 
-#: includes/functions/functions.php:1125 includes/pages/emg-welcome.php:337
+#: includes/functions/functions.php:1164 includes/pages/emg-welcome.php:337
 msgid "Demo"
 msgstr "Demo"
 
-#: includes/functions/functions.php:1136
+#: includes/functions/functions.php:1175
 msgid "Free Install Plugins"
 msgstr "Instalați gratuit Plugin-uri"
 
-#: includes/functions/functions.php:1147
+#: includes/functions/functions.php:1186
 msgid "Premium Plugin"
 msgstr "Premium Plugin"
 
-#: includes/functions/functions.php:1158 includes/functions/functions.php:1180
+#: includes/functions/functions.php:1219
 msgid "UPGRADE PRO VERSION"
 msgstr "ACTUALIZAŢI VERSIUNEA PRO"
 
-#: includes/functions/functions.php:1169
-msgid "Earn EXTRA MONEY"
-msgstr "Câştiga bani în plus"
-
-#: includes/functions/functions.php:1212 includes/pages/emg-addons.php:35
+#: includes/functions/functions.php:1251 includes/pages/emg-addons.php:35
 #: includes/pages/emg-featured.php:25
 msgid ""
 "There was an error retrieving the list from the server. Please try again "
@@ -250,7 +246,7 @@ msgstr ""
 "Eroare la regăsirea listei de pe server. Vă rugăm să încercaţi din nou mai "
 "târziu."
 
-#: includes/functions/functions.php:1248
+#: includes/functions/functions.php:1287
 msgid ""
 "Fill your Affiliate Account Email or Payment Email and press Connect button "
 "to start earn extra Money with us!"
@@ -258,15 +254,15 @@ msgstr ""
 "Umple Afiliere cont E-mail sau plata E-mail şi apăsaţi butonul Connect "
 "pentru a începe să câştigaţi bani suplimentare cu noi!"
 
-#: includes/functions/functions.php:1264
+#: includes/functions/functions.php:1303
 msgid "Account Email or Payment Email"
 msgstr "Cont de E-mail sau E-mail de plată"
 
-#: includes/functions/functions.php:1289
+#: includes/functions/functions.php:1328
 msgid "How does it work?"
 msgstr "Cum funcționează?"
 
-#: includes/functions/functions.php:1291
+#: includes/functions/functions.php:1330
 msgid ""
 "After successfully registered with our Affiliate program what you have to do "
 "just :"
@@ -274,7 +270,7 @@ msgstr ""
 "După înregistrat cu succes programul nostru de afiliere ceea ce trebuie să "
 "faci doar:"
 
-#: includes/functions/functions.php:1292
+#: includes/functions/functions.php:1331
 msgid ""
 "Fill your Affiliate Account Email or Payment Email in field above and Hit "
 "Connect button"
@@ -282,11 +278,11 @@ msgstr ""
 "Completaţi dumneavoastră afiliat cont de E-mail sau plata E-mail în câmpul "
 "de mai sus şi a lovit conecta butonul"
 
-#: includes/functions/functions.php:1293
+#: includes/functions/functions.php:1332
 msgid "After connected you will see green connected status"
 msgstr "După conectat veţi vedea verde statutul conectat"
 
-#: includes/functions/functions.php:1294
+#: includes/functions/functions.php:1333
 msgid ""
 "Check your gallery and you will find your affiliate link in the bottom of "
 "your gallery like in the right side screenshot"
@@ -294,7 +290,7 @@ msgstr ""
 "Verificaţi Galerie dumneavoastră şi veţi găsi link-ul afiliat în partea de "
 "jos a vă Galerie ca în imaginea de partea dreapta"
 
-#: includes/functions/functions.php:1295
+#: includes/functions/functions.php:1334
 msgid ""
 "Now when individuals follow that link and subsequently make a purchase, you "
 "will be credited for the transaction and you will receive a payout"
@@ -302,7 +298,7 @@ msgstr ""
 "Acum când indivizi urmaţi link-ul şi apoi face o achiziţie, vă va fi "
 "creditat pentru tranzacţia şi veţi primi o plată"
 
-#: includes/functions/functions.php:1296
+#: includes/functions/functions.php:1335
 msgid "Congratulations! You are ready to start to earn extra money with us :)"
 msgstr ""
 "Felicitări! Sunteţi gata pentru a începe să câştigaţi bani în plus cu noi :)"
@@ -359,15 +355,19 @@ msgstr "Dimensiune video"
 #: includes/metaboxes.php:813
 msgid "If ON, video size will use the default settings on the control panel."
 msgstr ""
+"Daca este activa, dimensiunea video va utiliza setările implicite de pe "
+"panoul de control."
 
 #: includes/metaboxes.php:830
 msgid "Select Multiple Images"
-msgstr ""
+msgstr "Selectați mai multe imagini"
 
 #: includes/metaboxes.php:831
 msgid ""
 "Click Add Images button to select image from your Wordpress Media Library."
 msgstr ""
+"Faceți clic pe butonul Imagini Adăugare pentru a selecta imaginea din "
+"Wordpress Media Library."
 
 #: includes/metaboxes.php:839
 msgid "<span class=\"gtips\">Tips:</span>"
@@ -375,13 +375,13 @@ msgstr ""
 
 #: includes/metaboxes.php:840
 msgid ""
-"<ul class=\"gtipslist\"><li>Use <b>Ctrl + Click</b> on each image to select "
-"multiple images at once.</li><li>You also can drag and drop images to re-"
-"order.</li><li>Click on image to edit title/subtitle ( <i>Pro Version only</"
-"i> )</li><li class=\"messivideo\" data-yvid=\"https://www.youtube.com/embed/"
-"H1Z3fidyEbE?rel=0\">Tutorial How to Create Gallery</li>\n"
+"<ul class=\"gtipslist\"><li class=\"messivideo\" data-yvid=\"https://www."
+"youtube.com/embed/H1Z3fidyEbE?rel=0\">Tutorial How to Create Gallery</li>\n"
 "<li class=\"messivideo\" data-yvid=\"https://www.youtube.com/embed/"
-"pjHvRoV2Bn8?rel=0\">Tutorial How to Create Album</li></ul>"
+"pjHvRoV2Bn8?rel=0\">Tutorial How to Create Album</li><li>Use <b>Ctrl + "
+"Click</b> on each image to select multiple images at once.</li><li>You also "
+"can drag and drop images to re-order.</li><li>Click on image to edit title/"
+"subtitle ( <i>Pro Version only</i> )</li></ul>"
 msgstr ""
 
 # @ easmedia
@@ -395,10 +395,13 @@ msgid ""
 "If ON, image which exceeds the specified size limit will be automatically "
 "resized. You can change image size limit through plugin control panel."
 msgstr ""
+"Daca este activa, imaginea care depășește limita de dimensiune specificată "
+"va fi redimensionate automat. Aveți posibilitatea să modificați limita de "
+"dimensiune a imaginii prin intermediul panoului de control plug-in."
 
 #: includes/metaboxes.php:860
 msgid "Use information of each image"
-msgstr ""
+msgstr "Utilizați informațiile din fiecărei imagini"
 
 #: includes/metaboxes.php:861
 msgid ""
@@ -406,6 +409,10 @@ msgid ""
 "informations. If OFF, this gallery will use title, sub title and description "
 "from Media Information below."
 msgstr ""
+"Daca este activa, fiecare imagine se va folosi individual pentru titlu bazat "
+"pe informațiile Wordpress Media. În cazul în care OFF, această galerie se va "
+"folosi din titlu, sub-titlu a și descrierea de la Media Informațiile de mai "
+"jos."
 
 # @ easmedia
 #: includes/metaboxes.php:876
@@ -456,7 +463,7 @@ msgstr "Media de Informare"
 # @ easmedia
 #: includes/metaboxes.php:934
 msgid "Input basic info for this media."
-msgstr ""
+msgstr "Intrare informații de bază pentru mass-media."
 
 # @ easmedia
 #: includes/metaboxes.php:940
@@ -486,19 +493,19 @@ msgstr "Verifică-l!"
 msgid "Just Like, Share or Subscribe and Get Free Updates"
 msgstr "Doar ca, partaja sau Aboneaza-te şi a lua actualizări gratuite"
 
-#: includes/pages/emg-demo.php:51
-msgid "New Plugin, check it out!"
-msgstr "Nou Plugin, a verifica it afară!"
+# @ easmedia
+#: includes/pages/emg-demo.php:50
+msgid "Video Tutorials"
+msgstr "Video Tutoriale"
 
 # @ easmedia
-#: includes/pages/emg-demo.php:63
+#: includes/pages/emg-demo.php:120
 msgid "Share Easy Media Gallery"
 msgstr ""
 
-# @ easmedia
-#: includes/pages/emg-demo.php:73
-msgid "Video Tutorials"
-msgstr "Video Tutoriale"
+#: includes/pages/emg-demo.php:130
+msgid "New Plugin, check it out!"
+msgstr "Nou Plugin, a verifica it afară!"
 
 #: includes/pages/emg-freeplugins.php:164
 #, php-format
@@ -748,10 +755,9 @@ msgstr ""
 
 #: includes/pages/emg-welcome.php:500
 msgid ""
-"Just upgrade to <a target=\"_blank\" href=\"http://ghozylab.com/plugins/easy-"
-"media-gallery-pro/pricing/\">Pro version</a> and you will get Priority "
-"Support are there for customers that need faster and/or more in-depth "
-"assistance."
+"Just upgrade to <a target=\"_blank\" href=\"https://ghozy.link/eqiz9\">Pro "
+"version</a> and you will get Priority Support are there for customers that "
+"need faster and/or more in-depth assistance."
 msgstr ""
 
 #: includes/pages/emg-welcome.php:506
@@ -777,6 +783,10 @@ msgid ""
 "these videos to create new media. This user manual is only intended to be a "
 "reference guide."
 msgstr ""
+"Acest plug-in vine cu clipuri video de instruire de instruire care vă vor "
+"prezenta fiecare aspect al configurarea noului galeria media. Recomandăm ca "
+"urmare a acestor clipuri video pentru a crea noi media. Acest manual de "
+"utilizare este destinat numai pentru a fi un ghid de referință."
 
 #: includes/pages/emg-welcome.php:690
 msgid "No valid changelog was found."
@@ -838,6 +848,9 @@ msgstr "Nici o categorie găsite în coşul de gunoi"
 #: includes/taxonomy.php:27
 msgid "Emediagallery"
 msgstr ""
+
+#~ msgid "Earn EXTRA MONEY"
+#~ msgstr "Câştiga bani în plus"
 
 # @ easmedia
 #~ msgid "Documentation"

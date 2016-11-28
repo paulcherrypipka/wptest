@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Easy Media Gallery v1.2.29\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-02-07 00:28+0700\n"
-"PO-Revision-Date: 2016-02-07 00:29+0700\n"
+"POT-Creation-Date: 2016-05-03 09:24+0700\n"
+"PO-Revision-Date: 2016-05-03 09:24+0700\n"
 "Last-Translator: admin <langmaster@ghozylab.com>\n"
 "Language-Team: \n"
 "Language: id_ID\n"
@@ -20,117 +20,117 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 
 # @ easmedia
-#: easy-media-gallery.php:212 includes/emg-settings.php:40
-#: includes/functions/functions.php:1103
+#: easy-media-gallery.php:220 includes/emg-settings.php:40
+#: includes/functions/functions.php:1142
 msgid "Settings"
 msgstr "Pengaturan"
 
-#: easy-media-gallery.php:233
+#: easy-media-gallery.php:241
 msgid "Donate"
 msgstr "Donasi"
 
-#: easy-media-gallery.php:234
+#: easy-media-gallery.php:242
 msgid "Tutorials"
 msgstr "Panduan"
 
-#: easy-media-gallery.php:235
+#: easy-media-gallery.php:243
 msgid "Rate Us"
 msgstr "Beri kami peringkat"
 
-#: easy-media-gallery.php:250
+#: easy-media-gallery.php:258
 msgctxt "post type general name"
 msgid "Easy Media Gallery Lite"
 msgstr ""
 
-#: easy-media-gallery.php:251
+#: easy-media-gallery.php:259
 msgctxt "post type singular name"
 msgid "Easy Media Gallery Lite"
 msgstr ""
 
 # @ easmedia
-#: easy-media-gallery.php:252 includes/functions/functions.php:1081
+#: easy-media-gallery.php:260 includes/functions/functions.php:1120
 msgid "Add New Media"
 msgstr "Tambah Media Baru"
 
 # @ easmedia
-#: easy-media-gallery.php:253
+#: easy-media-gallery.php:261
 msgid "Easy Media Item"
 msgstr "Easy Media Item"
 
 # @ easmedia
-#: easy-media-gallery.php:254
+#: easy-media-gallery.php:262
 msgid "Edit Media"
 msgstr "Ubah Media"
 
 # @ easmedia
-#: easy-media-gallery.php:255
+#: easy-media-gallery.php:263
 msgid "New Media"
 msgstr "Buat Media"
 
 # @ easmedia
-#: easy-media-gallery.php:256
+#: easy-media-gallery.php:264
 msgid "View Media"
 msgstr "Lihat Media"
 
 # @ easmedia
-#: easy-media-gallery.php:257
+#: easy-media-gallery.php:265
 msgid "Search Media"
 msgstr "Cari Media"
 
 # @ easmedia
-#: easy-media-gallery.php:258
+#: easy-media-gallery.php:266
 msgid "No Media Found"
 msgstr "Tidak ada Media"
 
 # @ easmedia
-#: easy-media-gallery.php:259
+#: easy-media-gallery.php:267
 msgid "No Media Found In Trash"
 msgstr "Tidak ada Media yang ditemukan di tempat sampah"
 
 # @ easmedia
-#: easy-media-gallery.php:260
+#: easy-media-gallery.php:268
 msgid "Parent Media"
 msgstr ""
 
 # @ easmedia
-#: easy-media-gallery.php:261 easy-media-gallery.php:269
+#: easy-media-gallery.php:269 easy-media-gallery.php:277
 msgid "Easy Media"
 msgstr "Easy Media"
 
 # @ easmedia
-#: easy-media-gallery.php:327
+#: easy-media-gallery.php:336
 msgctxt "column name"
 msgid "Title"
 msgstr "Judul"
 
 # @ easmedia
-#: easy-media-gallery.php:328
+#: easy-media-gallery.php:337
 msgid "Thumbnails"
 msgstr "Thumbnail"
 
 # @ easmedia
-#: easy-media-gallery.php:329
+#: easy-media-gallery.php:338
 msgid "Type"
 msgstr "Jenis"
 
 # @ easmedia
 # @ default
-#: easy-media-gallery.php:330 includes/functions/functions.php:1092
+#: easy-media-gallery.php:339 includes/functions/functions.php:1131
 #: includes/taxonomy.php:20
 msgid "Categories"
 msgstr "Kategori"
 
 # @ easmedia
-#: easy-media-gallery.php:331
+#: easy-media-gallery.php:340
 msgid "ID"
 msgstr "ID"
 
 # @ easmedia
-#: easy-media-gallery.php:399
+#: easy-media-gallery.php:408
 msgid "None"
 msgstr "None"
 
-#: easy-media-gallery.php:529 includes/functions/functions.php:1070
+#: easy-media-gallery.php:540 includes/functions/functions.php:1109
 msgid "Overview"
 msgstr "Ringkasan"
 
@@ -138,7 +138,7 @@ msgstr "Ringkasan"
 msgid "Use this widget to display your media as a widget."
 msgstr "Menggunakan widget ini untuk menampilkan media sebagai sebuah widget."
 
-#: includes/easywidget.php:11 includes/functions/functions.php:1060
+#: includes/easywidget.php:11 includes/functions/functions.php:1099
 msgid "Easy Media Gallery"
 msgstr ""
 
@@ -176,13 +176,13 @@ msgid "+ %s"
 msgstr ""
 
 # @ easmedia
-#: includes/functions/functions.php:614 includes/functions/functions.php:628
-#: includes/functions/functions.php:656 includes/functions/functions.php:1114
+#: includes/functions/functions.php:615 includes/functions/functions.php:629
+#: includes/functions/functions.php:657 includes/functions/functions.php:1153
 msgid "Sorter"
 msgstr "Urutkan"
 
 # @ easmedia
-#: includes/functions/functions.php:629
+#: includes/functions/functions.php:630
 msgid ""
 "Simply drag the Media up or down and they will be saved in that order. Media "
 "at the top will appear first."
@@ -191,25 +191,25 @@ msgstr ""
 "Media pada paling atas akan muncul diurutan pertama."
 
 # @ easmedia
-#: includes/functions/functions.php:633 includes/functions/functions.php:659
+#: includes/functions/functions.php:634 includes/functions/functions.php:660
 msgid "Sort Media"
 msgstr "Urutkan Media"
 
 # @ easmedia
-#: includes/functions/functions.php:660
+#: includes/functions/functions.php:661
 #, php-format
 msgid "No items found, why not %screate one%s?\t"
 msgstr "Item tidak ditemukan, why not %screate one%s?\\\t"
 
-#: includes/functions/functions.php:715
+#: includes/functions/functions.php:716
 msgid "Easy Media Gallery (Lite) "
 msgstr ""
 
-#: includes/functions/functions.php:859
+#: includes/functions/functions.php:898
 msgid "<img src=\""
 msgstr ""
 
-#: includes/functions/functions.php:924
+#: includes/functions/functions.php:963
 msgid ""
 "We recommend you to enable plugin Auto Update so you will get the latest "
 "features and other important updates of Easy Media Gallery.<br />Click <a "
@@ -221,34 +221,30 @@ msgstr ""
 "<br>Klik <a href=\"#\"><strong><span id=\"doautoupdate\">di sini</span></"
 "strong></a> untuk mengaktifkan Auto Update."
 
-#: includes/functions/functions.php:1125 includes/pages/emg-welcome.php:337
+#: includes/functions/functions.php:1164 includes/pages/emg-welcome.php:337
 msgid "Demo"
 msgstr "Demo"
 
-#: includes/functions/functions.php:1136
+#: includes/functions/functions.php:1175
 msgid "Free Install Plugins"
 msgstr "Plugin Gratis"
 
-#: includes/functions/functions.php:1147
+#: includes/functions/functions.php:1186
 msgid "Premium Plugin"
 msgstr "Plugin Premium"
 
-#: includes/functions/functions.php:1158 includes/functions/functions.php:1180
+#: includes/functions/functions.php:1219
 msgid "UPGRADE PRO VERSION"
 msgstr "Upgrade ke Versi Pro"
 
-#: includes/functions/functions.php:1169
-msgid "Earn EXTRA MONEY"
-msgstr "Dapatkan UANG EXTRA"
-
-#: includes/functions/functions.php:1212 includes/pages/emg-addons.php:35
+#: includes/functions/functions.php:1251 includes/pages/emg-addons.php:35
 #: includes/pages/emg-featured.php:25
 msgid ""
 "There was an error retrieving the list from the server. Please try again "
 "later."
 msgstr "Ada kesalahan mengambil daftar dari server. Silakan coba lagi nanti."
 
-#: includes/functions/functions.php:1248
+#: includes/functions/functions.php:1287
 msgid ""
 "Fill your Affiliate Account Email or Payment Email and press Connect button "
 "to start earn extra Money with us!"
@@ -256,15 +252,15 @@ msgstr ""
 "Isi Email atau Pembayaran Email dan tekan tombol Akun Afiliasi Connect untuk "
 "mulai mendapatkan uang tambahan dengan kami!"
 
-#: includes/functions/functions.php:1264
+#: includes/functions/functions.php:1303
 msgid "Account Email or Payment Email"
 msgstr "Akun Email atau Pembayaran Email"
 
-#: includes/functions/functions.php:1289
+#: includes/functions/functions.php:1328
 msgid "How does it work?"
 msgstr "Bagaimana cara kerjanya?"
 
-#: includes/functions/functions.php:1291
+#: includes/functions/functions.php:1330
 msgid ""
 "After successfully registered with our Affiliate program what you have to do "
 "just :"
@@ -272,7 +268,7 @@ msgstr ""
 "Setelah berhasil terdaftar dengan Program Afiliasi kami apa yang harus Anda "
 "lakukan hanya:"
 
-#: includes/functions/functions.php:1292
+#: includes/functions/functions.php:1331
 msgid ""
 "Fill your Affiliate Account Email or Payment Email in field above and Hit "
 "Connect button"
@@ -280,11 +276,11 @@ msgstr ""
 "Isi Akun Afiliasi Anda Email atau Pembayaran Email di lapangan atas dan Hit "
 "tombol Connect"
 
-#: includes/functions/functions.php:1293
+#: includes/functions/functions.php:1332
 msgid "After connected you will see green connected status"
 msgstr "Setelah terhubung, Anda akan melihat status terhubung berwarna hijau"
 
-#: includes/functions/functions.php:1294
+#: includes/functions/functions.php:1333
 msgid ""
 "Check your gallery and you will find your affiliate link in the bottom of "
 "your gallery like in the right side screenshot"
@@ -292,7 +288,7 @@ msgstr ""
 "Periksa galeri Anda dan Anda akan menemukan link afiliasi Anda di bawah "
 "galeri anda seperti pada gambar di sisi kanan"
 
-#: includes/functions/functions.php:1295
+#: includes/functions/functions.php:1334
 msgid ""
 "Now when individuals follow that link and subsequently make a purchase, you "
 "will be credited for the transaction and you will receive a payout"
@@ -300,7 +296,7 @@ msgstr ""
 "Sekarang ketika seseorang mengikuti link dan kemudian melakukan pembelian, "
 "Anda akan dikreditkan untuk transaksi dan Anda akan menerima payout"
 
-#: includes/functions/functions.php:1296
+#: includes/functions/functions.php:1335
 msgid "Congratulations! You are ready to start to earn extra money with us :)"
 msgstr ""
 "Selamat! Anda siap untuk mulai mendapatkan uang tambahan dengan kami :)"
@@ -375,13 +371,13 @@ msgstr ""
 
 #: includes/metaboxes.php:840
 msgid ""
-"<ul class=\"gtipslist\"><li>Use <b>Ctrl + Click</b> on each image to select "
-"multiple images at once.</li><li>You also can drag and drop images to re-"
-"order.</li><li>Click on image to edit title/subtitle ( <i>Pro Version only</"
-"i> )</li><li class=\"messivideo\" data-yvid=\"https://www.youtube.com/embed/"
-"H1Z3fidyEbE?rel=0\">Tutorial How to Create Gallery</li>\n"
+"<ul class=\"gtipslist\"><li class=\"messivideo\" data-yvid=\"https://www."
+"youtube.com/embed/H1Z3fidyEbE?rel=0\">Tutorial How to Create Gallery</li>\n"
 "<li class=\"messivideo\" data-yvid=\"https://www.youtube.com/embed/"
-"pjHvRoV2Bn8?rel=0\">Tutorial How to Create Album</li></ul>"
+"pjHvRoV2Bn8?rel=0\">Tutorial How to Create Album</li><li>Use <b>Ctrl + "
+"Click</b> on each image to select multiple images at once.</li><li>You also "
+"can drag and drop images to re-order.</li><li>Click on image to edit title/"
+"subtitle ( <i>Pro Version only</i> )</li></ul>"
 msgstr ""
 
 # @ easmedia
@@ -408,6 +404,9 @@ msgid ""
 "informations. If OFF, this gallery will use title, sub title and description "
 "from Media Information below."
 msgstr ""
+"Jika aktif, setiap gambar akan menggunakan judul individu yang didasarkan "
+"pada Wordpress Media informasi. Jika OFF, galeri ini akan menggunakan judul, "
+"sub judul dan deskripsi dari Media informasi di bawah ini."
 
 # @ easmedia
 #: includes/metaboxes.php:876
@@ -487,19 +486,19 @@ msgstr "Check it Out!"
 msgid "Just Like, Share or Subscribe and Get Free Updates"
 msgstr "Like, Share atau Berlangganan dan Dapatkan Gratis Update"
 
-#: includes/pages/emg-demo.php:51
-msgid "New Plugin, check it out!"
-msgstr "Plugin baru, periksa!"
+# @ easmedia
+#: includes/pages/emg-demo.php:50
+msgid "Video Tutorials"
+msgstr "Video Panduan"
 
 # @ easmedia
-#: includes/pages/emg-demo.php:63
+#: includes/pages/emg-demo.php:120
 msgid "Share Easy Media Gallery"
 msgstr "Bagikan Easy Media Gallery"
 
-# @ easmedia
-#: includes/pages/emg-demo.php:73
-msgid "Video Tutorials"
-msgstr "Video Panduan"
+#: includes/pages/emg-demo.php:130
+msgid "New Plugin, check it out!"
+msgstr "Plugin baru, periksa!"
 
 #: includes/pages/emg-freeplugins.php:164
 #, php-format
@@ -694,7 +693,7 @@ msgstr ""
 
 #: includes/pages/emg-welcome.php:427
 msgid "View the Full Changelog"
-msgstr ""
+msgstr "Lihat Changelog Lengkap"
 
 #: includes/pages/emg-welcome.php:444
 msgid " Changelog"
@@ -748,10 +747,9 @@ msgstr ""
 
 #: includes/pages/emg-welcome.php:500
 msgid ""
-"Just upgrade to <a target=\"_blank\" href=\"http://ghozylab.com/plugins/easy-"
-"media-gallery-pro/pricing/\">Pro version</a> and you will get Priority "
-"Support are there for customers that need faster and/or more in-depth "
-"assistance."
+"Just upgrade to <a target=\"_blank\" href=\"https://ghozy.link/eqiz9\">Pro "
+"version</a> and you will get Priority Support are there for customers that "
+"need faster and/or more in-depth assistance."
 msgstr ""
 
 #: includes/pages/emg-welcome.php:506
@@ -838,6 +836,9 @@ msgstr "Tidak ada kategori yang ditemukan di tempat sampah"
 #: includes/taxonomy.php:27
 msgid "Emediagallery"
 msgstr ""
+
+#~ msgid "Earn EXTRA MONEY"
+#~ msgstr "Dapatkan UANG EXTRA"
 
 # @ easmedia
 #~ msgid "Documentation"

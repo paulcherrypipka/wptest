@@ -714,6 +714,38 @@ input.option-tree-ui-input {
   text-decoration: none;
 }
 
+.icl-btn {
+	display: inline-block;
+    padding: 10px 15px;
+    margin-bottom: 0;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.428571429;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.icl-btn:hover {
+	background-color: #FF3535;
+}
+
+.icl-btn-danger {
+    color: #fff;
+    background-color: #e74c3c;
+    border-color: #e74c3c;
+}
+
+
 /* Cache Section */
 
 .gbox_cache_cont {
@@ -875,6 +907,34 @@ color: #FFF !important;
         -ms-transform:rotate(3deg);  
          -o-transform:rotate(3deg);
             transform:rotate(3deg);
+}
+
+/* Info */
+.icp-info {
+	-moz-border-radius-bottomleft:4px;
+	-moz-border-radius-bottomright:4px;
+	padding: 16px;
+	margin: 20px 0px 15px 0px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	-khtml-border-radius: 10px;
+	border-radius: 7px;
+	padding-left: 55px;
+	background: #eee;
+	font-style: normal;
+	font-family: "Open Sans",sans-serif;
+	font-size: 1em;
+	background-image: url("../images/info.png");
+	background-repeat: no-repeat;
+	background-position: left;
+	background-size: 32px 32px;
+	background-color: #fffadb;
+	border: 1px solid #f5d145;
+	color: #9e660d;
+	max-width: 100%;
+	line-height:1.5em;
+	text-align:left;
+	background-position: 10px center;
 }
 
 @media screen and ( max-width: 782px ) {

@@ -262,7 +262,7 @@ $easing = array( "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "e
                     
                     	<tr valign="top">
                         	<td>
-                    		<h2><a href="http://ghozylab.com/plugins/ordernow.php?order=addons-image-carousel" target="_blank"><span class="icpbtn">UPGRADE NOW !</span></a></h2>
+                    		<h2><a href="http://ghozylab.com/plugins/ordernow.php?order=addons-image-carousel" target="_blank"><span class="icl-btn icl-btn-danger"><span style="margin-right: 5px;top:5px;margin-top: 3px;" class="dashicons dashicons-cart"></span>UPGRADE NOW !</span></a></h2>
                     	  </td>
                     	</tr>
                     
@@ -274,7 +274,7 @@ $easing = array( "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "e
                         
                     	<tr valign="top">
                         	<td>
-                    		<h2><a href="http://ghozylab.com/plugins/ordernow.php?order=addons-image-carousel" target="_blank"><span class="icpbtn">UPGRADE NOW !</span></a></h2>
+                    		<h2><a href="http://ghozylab.com/plugins/ordernow.php?order=addons-image-carousel" target="_blank"><span class="icl-btn icl-btn-danger"><span style="margin-right: 5px;top:5px;margin-top: 3px;" class="dashicons dashicons-cart"></span>UPGRADE NOW !</span></a></h2>
                     	  </td>
                     	</tr>
                         

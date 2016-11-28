@@ -3,8 +3,8 @@ Contributors: GhozyLab
 Donate link: http://ghozylab.com/
 Tags: image, images, carousel, slider, image carousel, image gallery, image slider, carousel plugin, picture, gallery, slideshow, image slideshow
 Requires at least: 3.3
-Tested up to: 4.4.1
-Stable tag: 1.0.0.19
+Tested up to: 4.6
+Stable tag: 1.0.0.21
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -44,6 +44,9 @@ The following are other recommended plugins by the author:
 * Italy
 * Swedish
 * Bahasa Indonesia
+* Polish
+* Greek
+* Danish
 
 > #### **NOTE**
 > If you would like to create your own language pack or update the existing one, you can send <a href="http://codex.wordpress.org/Translating_WordPress" title="Translating WordPress" target="_blank">the text of PO and MO files</a> for <a href="http://ghozylab.com" title="GhozyLab" target="_blank">GhozyLab</a> and we'll add it to the plugin. You can download the latest version of the program for work with PO and MO files  <a href="http://www.poedit.net/download.php" title="Download Poedit" target="_blank">Poedit</a>.
@@ -113,15 +116,21 @@ There are no complicated instructions for using Image Carousel plugin because th
 
 == Upgrade Notice ==
 
-= 1.0.0.19 =
+= 1.0.0.21 =
 IMPORTANT! BUGS FIX, PLEASE UPDATE NOW!
 
 == Changelog ==
 
+= 1.0.0.21 =
+
+* Update : POT file and All Languages
+* New : Polish Language ( pl_PL ) 
+* Timestamp : none
+
 = 1.0.0.19 =
 
-* Added  : New Option to Enable / Disable Fancy Caption
-* Timestamp : none
+* Added : New Option to Enable / Disable Fancy Caption
+* Timestamp : 02/06/16 17:14:18
 
 = 1.0.0.17 =
 * Added : New option to disable / enable image auto height

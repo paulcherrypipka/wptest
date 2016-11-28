@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Image Carousel\n"
-"POT-Creation-Date: 2016-01-29 13:13+0700\n"
-"PO-Revision-Date: 2016-01-29 13:13+0700\n"
+"POT-Creation-Date: 2016-03-14 06:34+0700\n"
+"PO-Revision-Date: 2016-03-14 06:40+0700\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Poedit 1.8.6\n"
+"X-Generator: Poedit 1.8.7\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-WPHeader: image-carousel.php\n"
 "X-Poedit-SourceCharset: UTF-8\n"
@@ -55,112 +55,112 @@ msgstr "Changement de l image en noir et blanc échoué."
 msgid "Image negate failed."
 msgstr "Négatif de l image échoué."
 
-#: inc/functions/icp-functions.php:340
-msgid "Missing Attachment"
-msgstr "Pièce jointe manquante"
-
-#: inc/functions/icp-functions.php:483
-msgid "No cache found"
-msgstr "Pas de cache trouvé"
-
-#: inc/functions/icp-functions.php:489
-msgid "The cache files are not generated"
-msgstr "Les fichiers de cache ne sont pas générés"
-
-#: inc/functions/icp-functions.php:495
-msgid "You need to use php5 or greater to get cache size information."
-msgstr ""
-"Vous devez utiliser php5 ou plus pour obtenir des informations de la taille "
-"du cache."
-
-#: inc/functions/icp-functions.php:508
-msgid "Image Carousel Custom Link"
-msgstr "Image Carousel lien personnalisé"
-
-#: inc/functions/icp-functions.php:514
-msgid "Link URL"
-msgstr "URL du lien"
-
-#: inc/functions/icp-functions.php:521
-msgid "Target Link"
-msgstr "Cible du lien"
-
-#: inc/functions/icp-functions.php:525
-msgid "Open link in a new tab"
-msgstr "Ouvrir le lien dans un nouvel onglet"
-
-#: inc/functions/icp-functions.php:526
-msgid "Open link in same tab"
-msgstr "Ouvrir le lien dans le même onglet"
-
-#: inc/functions/icp-functions.php:665
+#: inc/functions/ajax/icp-admin-ajax.php:147
 #, php-format
 msgid "By %s"
 msgstr "Par %s"
 
-#: inc/functions/icp-functions.php:677
+#: inc/functions/ajax/icp-admin-ajax.php:159
 #, php-format
 msgid "Install %s now"
 msgstr "Installer %s maintenant"
 
-#: inc/functions/icp-functions.php:677
+#: inc/functions/ajax/icp-admin-ajax.php:159
 msgid "Install Now"
 msgstr "Installer Maintenant"
 
-#: inc/functions/icp-functions.php:684
+#: inc/functions/ajax/icp-admin-ajax.php:166
 #, php-format
 msgid "Update %s now"
 msgstr "Mise à jour %s maintenant"
 
-#: inc/functions/icp-functions.php:684
+#: inc/functions/ajax/icp-admin-ajax.php:166
 msgid "Update Now"
 msgstr "Mettre à jour maintenant"
 
-#: inc/functions/icp-functions.php:690
+#: inc/functions/ajax/icp-admin-ajax.php:172
 msgid "This plugin is already installed and is up to date"
 msgstr "Ce plugin est déjà installé et à jour"
 
-#: inc/functions/icp-functions.php:690
+#: inc/functions/ajax/icp-admin-ajax.php:172
 msgctxt "plugin"
 msgid "Installed"
 msgstr "Installé"
 
-#: inc/functions/icp-functions.php:699
+#: inc/functions/ajax/icp-admin-ajax.php:181
 #, php-format
 msgid "More information about %s"
 msgstr "Des informations supplémentaires sur les %s"
 
-#: inc/functions/icp-functions.php:699
+#: inc/functions/ajax/icp-admin-ajax.php:181
 msgid "More Details"
 msgstr "Plus de détails"
 
-#: inc/functions/icp-functions.php:766
+#: inc/functions/ajax/icp-admin-ajax.php:249
 msgid "Last Updated:"
 msgstr "Dernière mise à jour:"
 
-#: inc/functions/icp-functions.php:767
+#: inc/functions/ajax/icp-admin-ajax.php:250
 #, php-format
 msgid "%s ago"
 msgstr "%s ago"
 
-#: inc/functions/icp-functions.php:771
+#: inc/functions/ajax/icp-admin-ajax.php:254
 #, php-format
 msgid "%s download"
 msgid_plural "%s downloads"
 msgstr[0] "%s download"
 msgstr[1] "%s downloads"
 
-#: inc/functions/icp-functions.php:776
+#: inc/functions/ajax/icp-admin-ajax.php:259
 msgid "Untested with your version of WordPress"
 msgstr "Non testé avec votre version de WordPress"
 
-#: inc/functions/icp-functions.php:778
+#: inc/functions/ajax/icp-admin-ajax.php:261
 msgid "<strong>Incompatible</strong> with your version of WordPress"
 msgstr "<strong>Incompatible</strong> avec votre version de WordPress"
 
-#: inc/functions/icp-functions.php:780
+#: inc/functions/ajax/icp-admin-ajax.php:263
 msgid "<strong>Compatible</strong> with your version of WordPress"
 msgstr "<strong>Compatible</strong> avec votre version de WordPress"
+
+#: inc/functions/icp-functions.php:350
+msgid "Missing Attachment"
+msgstr "Pièce jointe manquante"
+
+#: inc/functions/icp-functions.php:493
+msgid "No cache found"
+msgstr "Pas de cache trouvé"
+
+#: inc/functions/icp-functions.php:499
+msgid "The cache files are not generated"
+msgstr "Les fichiers de cache ne sont pas générés"
+
+#: inc/functions/icp-functions.php:505
+msgid "You need to use php5 or greater to get cache size information."
+msgstr ""
+"Vous devez utiliser php5 ou plus pour obtenir des informations de la taille "
+"du cache."
+
+#: inc/functions/icp-functions.php:518
+msgid "Image Carousel Custom Link"
+msgstr "Image Carousel lien personnalisé"
+
+#: inc/functions/icp-functions.php:524
+msgid "Link URL"
+msgstr "URL du lien"
+
+#: inc/functions/icp-functions.php:531
+msgid "Target Link"
+msgstr "Cible du lien"
+
+#: inc/functions/icp-functions.php:535
+msgid "Open link in a new tab"
+msgstr "Ouvrir le lien dans un nouvel onglet"
+
+#: inc/functions/icp-functions.php:536
+msgid "Open link in same tab"
+msgstr "Ouvrir le lien dans le même onglet"
 
 #: inc/icp-metabox.php:45
 msgid "Activate Carousel?"
@@ -187,84 +187,112 @@ msgid "Use this option to show / hide Carousel captions"
 msgstr "Cette option permet d afficher / masquer les légendes du carrousel"
 
 #: inc/settings/icp-carousel-settings.php:60
+msgid "Fancy Caption"
+msgstr "Afficher la légende"
+
+#: inc/settings/icp-carousel-settings.php:65
+msgid ""
+"If Enabled the plugin will automatically convert uppercase the first "
+"character of each word and replace - with spaces in a title. For example : "
+"ferrari-f12-berlinetta will change to Ferrari F12 Berlinetta"
+msgstr ""
+"Si activé le plugin convertira automatiquement majuscule du premier "
+"caractère de chaque mot et le remplacer - avec des espaces dans un titre. "
+"Par exemple : ferrari-f12-berlinetta passera à Ferrari Berlinetta F12"
+
+#: inc/settings/icp-carousel-settings.php:70
 msgid "Show Bullets Navigation"
 msgstr "Voir la Navigation de balles"
 
-#: inc/settings/icp-carousel-settings.php:65
+#: inc/settings/icp-carousel-settings.php:75
 msgid "Use this option to show / hide Carousel bullets navigation"
 msgstr ""
 "Cette option permet d afficher / masquer la navigation balles carrousel"
 
-#: inc/settings/icp-carousel-settings.php:70
+#: inc/settings/icp-carousel-settings.php:80
 msgid "Slideshow Effect"
 msgstr "Effet diaporama"
 
-#: inc/settings/icp-carousel-settings.php:79
-#: inc/settings/icp-carousel-settings.php:100
-#: inc/settings/icp-carousel-settings.php:131
+#: inc/settings/icp-carousel-settings.php:89
+#: inc/settings/icp-carousel-settings.php:110
+#: inc/settings/icp-carousel-settings.php:155
 msgid " selected=\"selected\""
 msgstr " selected=\"selected\""
 
-#: inc/settings/icp-carousel-settings.php:82
+#: inc/settings/icp-carousel-settings.php:92
 msgid "Choose an entrance animation for the Carousel. Default: easeOutBounce"
 msgstr "Choose an input animation for the carousel. Default: easeOutBounce"
 
-#: inc/settings/icp-carousel-settings.php:87
+#: inc/settings/icp-carousel-settings.php:97
 msgid "Slideshow Interval"
 msgstr "Intervalles du diaporama"
 
-#: inc/settings/icp-carousel-settings.php:103
+#: inc/settings/icp-carousel-settings.php:113
 msgid "The time in seconds when autoplaying. Default 3 seconds"
 msgstr ""
 "Le temps en secondes quand la lecture automatique. Par défaut de 3 secondes"
 
-#: inc/settings/icp-carousel-settings.php:108
+#: inc/settings/icp-carousel-settings.php:118
 msgid "Carousel Items Width"
 msgstr "Largeur des éléments carrousel"
 
-#: inc/settings/icp-carousel-settings.php:113
+#: inc/settings/icp-carousel-settings.php:123
 msgid "Set the Carousel width to fit your needs. Default: 250 px"
 msgstr ""
 "Définissez la largeur du carrousel pour sadapter à vos besoins. Par défaut : "
 "250 px"
 
-#: inc/settings/icp-carousel-settings.php:118
+#: inc/settings/icp-carousel-settings.php:130
+msgid "Carousel Auto Height"
+msgstr "Carrousel Auto hauteur"
+
+#: inc/settings/icp-carousel-settings.php:135
+msgid ""
+"If enabled, this plugin will dynamically adjust slider height based on each "
+"slides height. If disabled, carousel items height will be equal with the "
+"width"
+msgstr ""
+"Si activé, ce plugin ajustera dynamiquement hauteur de curseur après chaque "
+"hauteur de diapositives. Si désactivé, Carrousel éléments hauteur sera égale "
+"à la largeur"
+
+#: inc/settings/icp-carousel-settings.php:142
 msgid "Carousel Items Margin"
 msgstr "Marge déléments carrousel"
 
-#: inc/settings/icp-carousel-settings.php:134
+#: inc/settings/icp-carousel-settings.php:158
 msgid "Set margin between each carousel items. Default 10 px"
 msgstr ""
 "Définir la marge entre chacun des éléments du carrousel. Par défaut 10 px"
 
-#: inc/settings/icp-carousel-settings.php:139
+#: inc/settings/icp-carousel-settings.php:163
 msgid "Open in Lightbox when Carousel Clicked"
 msgstr "Ouvert en Lightbox si on clique carrousel"
 
-#: inc/settings/icp-carousel-settings.php:163
+#: inc/settings/icp-carousel-settings.php:187
 msgid "Use this option to enable / disable Lighbox mode"
 msgstr "Utilisez cette option pour activer / désactiver le mode Lighbox"
 
-#: inc/settings/icp-carousel-settings.php:187
+#: inc/settings/icp-carousel-settings.php:211
 msgid "Disable All Carousel"
 msgstr "Désactiver tous les Carousel"
 
-#: inc/settings/icp-carousel-settings.php:192
+#: inc/settings/icp-carousel-settings.php:216
 msgid "Use this option to mass Disable Carousel in all Post & Page"
 msgstr ""
 "Utilisez cette option pour masse carrousel désactiver dans tous les Post & "
 "Page"
 
-#: inc/settings/icp-carousel-settings.php:197
+#: inc/settings/icp-carousel-settings.php:221
 msgid "Image Cache Control"
 msgstr "Contrôle de l image de Cache"
 
-#: inc/settings/icp-carousel-settings.php:202
+#: inc/settings/icp-carousel-settings.php:226
 msgid "All Cache Cleared"
 msgstr "Tout Cache Effacer"
 
-#: inc/settings/icp-carousel-settings.php:219
-#: inc/settings/icp-carousel-settings.php:232
+#: inc/settings/icp-carousel-settings.php:243
+#: inc/settings/icp-carousel-settings.php:256
 msgid "Save Changes"
 msgstr "Sauvegarder les modifications"
 
@@ -289,7 +317,7 @@ msgstr "Installer les plugins"
 
 #: inc/settings/pages/icp-free-plugins.php:15
 msgid "Retrieving data from server, please wait..."
-msgstr ""
+msgstr "Récupération de données du serveur, veuillez patienter..."
 
 #. Plugin Name of the plugin/theme
 msgid "Image Carousel"
