@@ -329,6 +329,19 @@ class wpematico_campaign_fetch extends wpematico_campaign_fetch_functions {
 		}
 
 		$parsed_content =  wpws_get_content($this->current_item['permalink'], $selector_content, array('output' => 'html'));
+		$nofollow = function ($html, $skip = null) {
+			return preg_replace_callback(
+					"#(<a[^>]+?)>#is", function ($mach) use ($skip) {
+				return (
+						!($skip && strpos($mach[1], $skip) !== false) &&
+						strpos($mach[1], 'rel=') === false
+				) ? $mach[1] . ' rel="nofollow">' : $mach[0];
+			},
+					$html
+			);
+		};
+		$parsed_content = $nofollow($parsed_content);
+
 		//$parsed_content =  wpws_get_content($this->current_item['permalink'], $selector_content, array('output' => 'text'));
 
 		// Create post
