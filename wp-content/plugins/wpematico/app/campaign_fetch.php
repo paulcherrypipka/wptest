@@ -350,7 +350,9 @@ class wpematico_campaign_fetch extends wpematico_campaign_fetch_functions {
 		$content= $parsed_content;
 		//$content= $this->current_item['content'];
 
-		$timestamp = $this->current_item['date'];
+		//$timestamp = $this->current_item['date'];
+		$pubDate = (isset($item->data['child']['']['pubDate'][0]['data'])) ? $item->data['child']['']['pubDate'][0]['data'] : $this->current_item['date'];
+		$timestamp = strtotime($pubDate);
 		$category = $this->current_item['categories'];
 		$status = $this->current_item['posttype'];
 		$authorid = $this->current_item['author'];
